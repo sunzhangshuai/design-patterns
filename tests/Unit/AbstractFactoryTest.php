@@ -9,6 +9,14 @@ use Tests\TestCase;
 
 // phpunit --filter=testCanCreateDigitalProduct
 // phpunit --group=abstractFactory
+
+/**
+ * 抽象工厂模式测试
+ *
+ * Class AbstractFactoryTest
+ *
+ * @package Tests\Unit
+ */
 class AbstractFactoryTest extends TestCase
 {
 
