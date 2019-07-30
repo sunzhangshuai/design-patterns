@@ -9,6 +9,13 @@ use App\Creational\Builder\Products\Car;
 use App\Creational\Builder\Products\Truck;
 use Tests\TestCase;
 
+/**
+ * 建造者模式测试
+ *
+ * Class BuilderTest
+ *
+ * @package Tests\Unit
+ */
 class BuilderTest extends TestCase
 {
     /**

@@ -8,6 +8,13 @@ use App\Creational\StaticFactory\StaticFactory;
 use InvalidArgumentException;
 use Tests\TestCase;
 
+/**
+ * 静态工厂测试
+ *
+ * Class StaticFactoryTest
+ *
+ * @package Tests\Unit
+ */
 class StaticFactoryTest extends TestCase
 {
     /**

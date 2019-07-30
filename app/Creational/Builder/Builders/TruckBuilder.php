@@ -14,7 +14,7 @@ use App\Creational\Builder\Products\Truck;
  *
  * Class TruckBuilder
  *
- * @package App\Creational\Builder
+ * @package App\Creational\Builder\Builders
  */
 class TruckBuilder implements BuilderInterface
 {
