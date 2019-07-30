@@ -5,5 +5,5 @@
 通常创建的类都实现相同的接口。 抽象工厂的客户并不关心这些对象是如何创建的，它只是知道它们是如何一起运行的。
 
 ## UML 类图
-![uml](./AbstractFactory.png)
+![抽象工厂模式](./AbstractFactory.png)
 
