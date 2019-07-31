@@ -2,6 +2,7 @@
   <dictionary name="wenba">
     <words>
       <w>creational</w>
+      <w>multiton</w>
     </words>
   </dictionary>
 </component>
