@@ -18,7 +18,6 @@ class FluentInterfaceTest extends TestCase
             ->select(['id', 'type'])
             ->from('clean_after', 'f')
             ->where('f.id = ?');
-
         $this->assertEquals('SELECT id, type FROM clean_after AS f WHERE f.id = ?', (string) $query);
     }
 }
