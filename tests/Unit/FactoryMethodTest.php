@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\FactoryMethod\FileLogger;
@@ -10,7 +16,6 @@ use Tests\TestCase;
 
 class FactoryMethodTest extends TestCase
 {
-
     /**
      * @group factoryMethod
      */

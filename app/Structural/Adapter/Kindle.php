@@ -1,18 +1,20 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Adapter;
 
 /**
- * 电子书实现类
+ * 电子书实现类.
  *
  * Class Kindle
- *
- * @package App\Structural\Adapter
  */
 class Kindle implements EBookInterface
 {
-
     /**
      * @var int
      */
@@ -31,11 +33,11 @@ class Kindle implements EBookInterface
     }
 
     /**
-     * 点击下一步
+     * 点击下一步.
      */
     public function pressNext()
     {
-        $this->page++;
+        ++$this->page;
     }
 
     /**

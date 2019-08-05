@@ -1,14 +1,17 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\DependencyInjection;
 
 /**
- * DB配置
+ * DB配置.
  *
  * Class DatabaseConfiguration
- *
- * @package App\Structural\DependencyInjection
  */
 class DatabaseConfiguration
 {

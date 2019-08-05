@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\Builder\Builders\CarBuilder;
@@ -10,16 +16,14 @@ use App\Creational\Builder\Products\Truck;
 use Tests\TestCase;
 
 /**
- * 建造者模式测试
+ * 建造者模式测试.
  *
  * Class BuilderTest
- *
- * @package Tests\Unit
  */
 class BuilderTest extends TestCase
 {
     /**
-     * 卡车制造测试
+     * 卡车制造测试.
      *
      * @group builder
      */
@@ -33,7 +37,7 @@ class BuilderTest extends TestCase
     }
 
     /**
-     * 汽车制造测试
+     * 汽车制造测试.
      *
      * @group builder
      */

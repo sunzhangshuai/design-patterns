@@ -1,18 +1,21 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\Prototype;
-
 
 class BarBookPrototype extends BookPrototype
 {
     protected $category = 'Bar';
 
     /**
-     * 克隆方法
+     * 克隆方法.
      */
-    function __clone()
+    public function __clone()
     {
-
     }
 }

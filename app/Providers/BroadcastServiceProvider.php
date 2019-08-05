@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
@@ -9,8 +15,6 @@ class BroadcastServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
-     *
-     * @return void
      */
     public function boot()
     {

@@ -1,14 +1,17 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Proxy;
-
 
 use OutOfRangeException;
 
 class Record
 {
-
     private $data;
 
     public function __construct($data = [])

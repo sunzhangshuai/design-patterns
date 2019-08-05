@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\Multiton\Multiton;
@@ -9,8 +15,6 @@ class MultitonTest extends TestCase
 {
     /**
      * @group multiton
-     *
-     * @return void
      */
     public function testMultiton()
     {

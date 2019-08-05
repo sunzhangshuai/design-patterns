@@ -1,10 +1,15 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Default Log Channel
@@ -90,5 +95,4 @@ return [
             'level' => 'debug',
         ],
     ],
-
 ];

@@ -1,10 +1,9 @@
 <?php
 
-/**
- * Laravel - A PHP Framework For Web Artisans
+/*
+ * 设计模式
  *
- * @package  Laravel
- * @author   Taylor Otwell <taylor@laravel.com>
+ * author 张帅
  */
 
 define('LARAVEL_START', microtime(true));
