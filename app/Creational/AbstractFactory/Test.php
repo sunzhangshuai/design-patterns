@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace AbstractFactory;
 
@@ -11,18 +16,21 @@ class Test
         $product = $factory->createDigitalProduct(150);
         print_r($product);
     }
+
     public function testCanCreateShippableProduct()
     {
         $factory = new ProductFactory();
         $product = $factory->createShippableProduct(150);
         print_r($product);
     }
+
     public function testCanCalculatePriceForDigitalProduct()
     {
         $factory = new ProductFactory();
         $product = $factory->createDigitalProduct(150);
         print_r($product->calculatePrice());
     }
+
     public function testCanCalculatePriceForShippableProduct()
     {
         $factory = new ProductFactory();
@@ -32,5 +40,5 @@ class Test
 }
 
 $test = new Test();
-print_r($test);die;
+print_r($test); die;
 $test->testCanCalculatePriceForShippableProduct();

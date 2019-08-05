@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Structural\Facade\BiosInterFace;
@@ -9,11 +15,9 @@ use PHPUnit_Framework_MockObject_MockObject;
 use Tests\TestCase;
 
 /**
- * 门面模式单元测试
+ * 门面模式单元测试.
  *
  * Class FacadeTest
- *
- * @package Tests\Unit
  */
 class FacadeTest extends TestCase
 {

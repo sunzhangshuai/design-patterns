@@ -1,7 +1,12 @@
 <?php
 
-return [
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
+return [
     /*
     |--------------------------------------------------------------------------
     | Third Party Services
@@ -47,5 +52,4 @@ return [
     'weather' => [
         'key' => env('WEATHER_API_KEY'),
     ],
-
 ];

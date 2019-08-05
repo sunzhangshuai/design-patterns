@@ -1,6 +1,11 @@
 <?php
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 use App\User;
 use Illuminate\Support\Str;
 use Faker\Generator as Faker;

@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\FactoryMethod;
 
@@ -7,8 +12,6 @@ namespace App\Creational\FactoryMethod;
  * 文件日志工厂
  *
  * Class FileLoggerFactory
- *
- * @package App\Creational\FactoryMethod
  */
 class FileLoggerFactory implements LoggerFactory
 {

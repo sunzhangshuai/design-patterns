@@ -1,28 +1,31 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Proxy;
 
 /**
- * 代理
+ * 代理.
  *
  * Class RecordProxy
  *
  * @property bool|mixed xyz
- * @package App\Structural\Proxy
  */
 class RecordProxy extends Record
 {
-
     /**
-     * 脏数据
+     * 脏数据.
      *
      * @var bool
      */
     private $isDirty = false;
 
     /**
-     * 是否初始化
+     * 是否初始化.
      *
      * @var bool
      */
@@ -39,7 +42,7 @@ class RecordProxy extends Record
         // 而是在继承了 Record 的代理类中去实现。
         if (count($data) > 0) {
             $this->isInitialized = true;
-            $this->isDirty       = true;
+            $this->isDirty = true;
         }
     }
 

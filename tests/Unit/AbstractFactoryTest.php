@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\AbstractFactory\DigitalProduct;
@@ -11,20 +17,16 @@ use Tests\TestCase;
 // phpunit --group=abstractFactory
 
 /**
- * 抽象工厂模式测试
+ * 抽象工厂模式测试.
  *
  * Class AbstractFactoryTest
- *
- * @package Tests\Unit
  */
 class AbstractFactoryTest extends TestCase
 {
-
     /**
      * A basic unit test example.
      *
      * @group abstractFactory
-     * @return void
      */
     public function testCanCreateDigitalProduct()
     {

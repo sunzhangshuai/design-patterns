@@ -1,18 +1,20 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\DependencyInjection;
 
 /**
- * DB连接
+ * DB连接.
  *
  * Class DatabaseConnection
- *
- * @package App\Structural\DependencyInjection
  */
 class DatabaseConnection
 {
-
     /**
      * @var DatabaseConfiguration
      */
