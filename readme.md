@@ -1,5 +1,6 @@
 # 设计模式学习代码
 
+[![Build Status](https://travis-ci.org/sunzhangshuai/composer_release-weather.svg?branch=master)](https://travis-ci.org/sunzhangshuai/composer_release-weather)
 ![StyleCI build status](https://github.styleci.io/repos/199437136/shield) 
 
 ## 目录
