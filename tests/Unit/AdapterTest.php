@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Structural\Adapter\Book;
@@ -8,16 +14,14 @@ use App\Structural\Adapter\Kindle;
 use Tests\TestCase;
 
 /**
- * 适配器类单元测试
+ * 适配器类单元测试.
  *
  * Class AdapterTest
- *
- * @package Tests\Unit
  */
 class AdapterTest extends TestCase
 {
     /**
-     * 测试纸质书翻页
+     * 测试纸质书翻页.
      *
      * @group adapter
      */
@@ -31,7 +35,7 @@ class AdapterTest extends TestCase
     }
 
     /**
-     * 测试电子书翻页
+     * 测试电子书翻页.
      *
      * @group adapter
      */

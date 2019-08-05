@@ -1,8 +1,12 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\Builder\Builders;
-
 
 use App\Creational\Builder\Parts\Door;
 use App\Creational\Builder\Parts\Engine;
@@ -10,23 +14,21 @@ use App\Creational\Builder\Parts\Wheel;
 use App\Creational\Builder\Products\Car;
 
 /**
- * 汽车制造商
+ * 汽车制造商.
  *
  * Class CarBuilder
- *
- * @package App\Creational\Builder\Builders
  */
 class CarBuilder implements BuilderInterface
 {
     /**
-     * 汽车
+     * 汽车.
      *
      * @var Car
      */
     private $car;
 
     /**
-     * 制造车辆
+     * 制造车辆.
      */
     public function createVehicle()
     {
@@ -34,7 +36,7 @@ class CarBuilder implements BuilderInterface
     }
 
     /**
-     * 增加轮子
+     * 增加轮子.
      */
     public function addWheel()
     {
@@ -45,7 +47,7 @@ class CarBuilder implements BuilderInterface
     }
 
     /**
-     * 增加发动机
+     * 增加发动机.
      */
     public function addEngine()
     {
@@ -53,7 +55,7 @@ class CarBuilder implements BuilderInterface
     }
 
     /**
-     * 增加车门
+     * 增加车门.
      */
     public function addDoors()
     {
@@ -63,7 +65,7 @@ class CarBuilder implements BuilderInterface
     }
 
     /**
-     * 获取车辆
+     * 获取车辆.
      *
      * @return mixed
      */

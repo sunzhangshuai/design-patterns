@@ -1,20 +1,24 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace App\Creational\Builder;
 
 use App\Creational\Builder\Builders\BuilderInterface;
 
 /**
- * 生产者
+ * 生产者.
  *
  * Class Director
- *
- * @package App\Creational\Builder
  */
 class Director
 {
     /**
-     * 制造车辆
+     * 制造车辆.
      *
      * @param BuilderInterface $builder
      *

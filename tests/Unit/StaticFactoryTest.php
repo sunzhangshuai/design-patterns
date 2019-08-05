@@ -1,19 +1,22 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\StaticFactory\FormatNumber;
 use App\Creational\StaticFactory\FormatString;
 use App\Creational\StaticFactory\StaticFactory;
-use InvalidArgumentException;
 use Tests\TestCase;
 
 /**
- * 静态工厂测试
+ * 静态工厂测试.
  *
  * Class StaticFactoryTest
- *
- * @package Tests\Unit
  */
 class StaticFactoryTest extends TestCase
 {
@@ -41,7 +44,7 @@ class StaticFactoryTest extends TestCase
 
     /**
      * @group staticFactory
-     * @expectedException InvalidArgumentException
+     * @expectedException \InvalidArgumentException
      */
     public function testException()
     {

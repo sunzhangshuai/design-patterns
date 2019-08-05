@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\SimpleFactory\Bicycle;
@@ -7,18 +13,14 @@ use App\Creational\SimpleFactory\SimpleFactory;
 use Tests\TestCase;
 
 /**
- * 简单工厂模式测试
+ * 简单工厂模式测试.
  *
  * Class SimpleFactoryTest
- *
- * @package Tests\Unit
  */
 class SimpleFactoryTest extends TestCase
 {
     /**
      * @group simpleFactory
-     *
-     * @return void
      */
     public function testCanCreateBicycle()
     {
@@ -28,14 +30,12 @@ class SimpleFactoryTest extends TestCase
 
     /**
      * @group simpleFactory
-     *
-     * @return void
      */
     public function testBicycleDrive()
     {
         $bicycle = (new SimpleFactory())->createBicycle();
 
         $destination = '老家';
-        $this->assertStringContainsString('驶向' . $destination, $bicycle->driveTo($destination));
+        $this->assertStringContainsString('驶向'.$destination, $bicycle->driveTo($destination));
     }
 }

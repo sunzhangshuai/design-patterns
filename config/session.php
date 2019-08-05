@@ -1,9 +1,14 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 use Illuminate\Support\Str;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Default Session Driver
@@ -195,5 +200,4 @@ return [
     */
 
     'same_site' => null,
-
 ];

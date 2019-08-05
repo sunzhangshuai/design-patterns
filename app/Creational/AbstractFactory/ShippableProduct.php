@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\AbstractFactory;
 
@@ -7,8 +12,6 @@ namespace App\Creational\AbstractFactory;
  * 运输类产品
  *
  * Class ShippableProduct
- *
- * @package AbstractFactory
  */
 class ShippableProduct implements Product
 {
@@ -23,7 +26,6 @@ class ShippableProduct implements Product
         $this->productPrice = $productPrice;
         $this->shippingPrice = $shippingPrice;
     }
-
 
     public function calculatePrice(): int
     {

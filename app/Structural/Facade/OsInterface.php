@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Facade;
 
@@ -8,7 +13,6 @@ namespace App\Structural\Facade;
  */
 interface OsInterface
 {
-
     /**
      * 声明关机方法。
      */

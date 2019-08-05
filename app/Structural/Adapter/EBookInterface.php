@@ -1,25 +1,27 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Adapter;
 
 /**
- * 电子书接口
+ * 电子书接口.
  *
  * Interface EBookInterface
- *
- * @package App\Structural\Adapter
  */
 interface EBookInterface
 {
-
     /**
      * 解锁
      */
     public function unlock();
 
     /**
-     * 点击下一步
+     * 点击下一步.
      */
     public function pressNext();
 

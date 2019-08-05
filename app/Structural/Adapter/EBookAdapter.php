@@ -1,18 +1,20 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Adapter;
 
 /**
- * 电子书适配器
+ * 电子书适配器.
  *
  * Class EBookAdapter
- *
- * @package App\Structural\Adapter
  */
 class EBookAdapter implements BookInterface
 {
-
     /**
      * @var EBookInterface 电子书
      */
@@ -24,7 +26,7 @@ class EBookAdapter implements BookInterface
     }
 
     /**
-     * 打开书
+     * 打开书.
      */
     public function open()
     {
@@ -32,7 +34,7 @@ class EBookAdapter implements BookInterface
     }
 
     /**
-     * 翻页
+     * 翻页.
      */
     public function turnPage()
     {
@@ -40,7 +42,7 @@ class EBookAdapter implements BookInterface
     }
 
     /**
-     * 获取页数
+     * 获取页数.
      *
      * @return int
      */
