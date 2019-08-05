@@ -9,7 +9,13 @@ dist: trusty   # 系统版本
 sudo: false  # 是否使用 sudo 模式
 
 # 执行前需要运行的命令
-install: travis_retry composer install --no-interaction --prefer-source
+install:
+  - travis_retry composer install --no-interaction --prefer-source
 
 # 主要构建命令
-script: vendor/bin/phpunit --verbose
+script:
+  - vendor/bin/phpunit --coverage-clover=coverage.xml
+
+# 测试报告
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
