@@ -1,5 +1,7 @@
 # 设计模式学习代码
 
+![StyleCI build status](https://github.styleci.io/repos/199437136/shield) 
+
 ## 目录
 - [创建型](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Creational)
     - [抽象工厂模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Creational/AbstractFactory)
