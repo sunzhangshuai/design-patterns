@@ -1,7 +1,12 @@
 <?php
 
-return [
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
+return [
     /*
     |--------------------------------------------------------------------------
     | View Storage Paths
@@ -32,5 +37,4 @@ return [
         'VIEW_COMPILED_PATH',
         realpath(storage_path('framework/views'))
     ),
-
 ];

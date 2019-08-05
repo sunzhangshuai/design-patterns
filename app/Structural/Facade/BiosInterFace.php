@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Facade;
 
@@ -14,7 +19,7 @@ interface BiosInterFace
     public function execute();
 
     /**
-     * 声明等待密码输入方法
+     * 声明等待密码输入方法.
      */
     public function waitForKeyPress();
 

@@ -1,35 +1,37 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Structural\Facade;
 
 /**
- * 门面模式
+ * 门面模式.
  *
  * Class Facade
- *
- * @package App\Structural\Facade
  */
 class Facade
 {
-
     /**
-     * @var OsInterface
-     * 定义操作系统接口变量。
+     * @var osInterface
+     *                  定义操作系统接口变量
      */
     private $os;
 
     /**
-     * @var BiosInterface
-     * 定义基础输入输出系统接口变量。
+     * @var biosInterface
+     *                    定义基础输入输出系统接口变量
      */
     private $bios;
 
     /**
      * @param BiosInterface $bios
-     * @param OsInterface $os
-     * 传入基础输入输出系统接口对象 $bios 。
-     * 传入操作系统接口对象 $os 。
+     * @param OsInterface   $os
+     *                            传入基础输入输出系统接口对象 $bios 。
+     *                            传入操作系统接口对象 $os 。
      */
     public function __construct(BiosInterface $bios, OsInterface $os)
     {

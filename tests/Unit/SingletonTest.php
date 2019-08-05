@@ -1,23 +1,25 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
+
 namespace Tests\Unit;
 
 use App\Creational\Singleton\Singleton;
 use Tests\TestCase;
 
 /**
- * 单例模式单元测试
+ * 单例模式单元测试.
  *
  * Class SingletonTest
- *
- * @package Tests\Unit
  */
 class SingletonTest extends TestCase
 {
     /**
      * @group singleton
-     *
-     * @return void
      */
     public function testUniqueness()
     {

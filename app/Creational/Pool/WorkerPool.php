@@ -1,27 +1,29 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\Pool;
 
 /**
- * 对象池模式
+ * 对象池模式.
  *
  * Class WorkerPool
- *
- * @package App\Creational\Pool
  */
 class WorkerPool
 {
-
     /**
-     * 已占用
+     * 已占用.
      *
      * @var array
      */
     private $occupiedWorkers = [];
 
     /**
-     * 空闲
+     * 空闲.
      *
      * @var array
      */
@@ -34,13 +36,14 @@ class WorkerPool
      */
     public function get()
     {
-        if (count($this->freeWorks) == 0) {
+        if (0 == count($this->freeWorks)) {
             $worker = new StringReverseWorker();
         } else {
             $worker = array_pop($this->freeWorks);
         }
-        $key                         = spl_object_hash($worker);
+        $key = spl_object_hash($worker);
         $this->occupiedWorkers[$key] = $worker;
+
         return $worker;
     }
 
@@ -59,7 +62,7 @@ class WorkerPool
     }
 
     /**
-     * 获取池子中对象数量
+     * 获取池子中对象数量.
      *
      * @return int
      */

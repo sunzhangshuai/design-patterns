@@ -1,7 +1,12 @@
 <?php
 
-return [
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
+return [
     /*
     |--------------------------------------------------------------------------
     | Pagination Language Lines
@@ -15,5 +20,4 @@ return [
 
     'previous' => '&laquo; Previous',
     'next' => 'Next &raquo;',
-
 ];

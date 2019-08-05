@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\AbstractFactory;
 
@@ -7,8 +12,6 @@ namespace App\Creational\AbstractFactory;
  * 产品工厂
  *
  * Class ProductFactory
- *
- * @package AbstractFactory
  */
 class ProductFactory
 {

@@ -1,8 +1,12 @@
 <?php
 
+/*
+ * 设计模式
+ *
+ * author 张帅
+ */
 
 namespace App\Creational\Prototype;
-
 
 abstract class BookPrototype
 {
@@ -11,12 +15,12 @@ abstract class BookPrototype
     protected $category;
 
     /**
-     * 克隆方法
+     * 克隆方法.
      */
-    abstract function __clone();
+    abstract public function __clone();
 
     /**
-     * 设置书名
+     * 设置书名.
      *
      * @param $title
      */
@@ -26,7 +30,7 @@ abstract class BookPrototype
     }
 
     /**
-     * 获取书名
+     * 获取书名.
      *
      * @return mixed
      */
