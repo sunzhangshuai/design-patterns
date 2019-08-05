@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sunzhangshuai/composer_release-weather.svg?branch=master)](https://travis-ci.org/sunzhangshuai/composer_release-weather)
 ![StyleCI build status](https://github.styleci.io/repos/199437136/shield) 
+[![codecov](https://codecov.io/gh/sunzhangshuai/design-patterns/branch/master/graph/badge.svg)](https://codecov.io/gh/sunzhangshuai/design-patterns)
 
 ## 目录
 - [创建型](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Creational)
