@@ -11,7 +11,6 @@ namespace Tests\Unit;
 use App\Structural\Facade\BiosInterFace;
 use App\Structural\Facade\Facade;
 use App\Structural\Facade\OsInterface;
-use PHPUnit_Framework_MockObject_MockObject;
 use Tests\TestCase;
 
 /**
@@ -36,7 +35,7 @@ class FacadeTest extends TestCase
 
         /** @var BiosInterFace|PHPUnit_Framework_MockObject_MockObject $bios */
         $bios = $this->getMockBuilder(BiosInterFace::class)
-            ->setMethods(['launch', 'execute', 'waitForKeyPress'])
+            ->setMethods(['launch', 'execute', 'waitForKeyPress', 'powerDown'])
             ->disableAutoload()
             ->getMock();
 
