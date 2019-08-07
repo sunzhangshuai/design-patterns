@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Structural\Decorator\Persons;
 
 /**
- * 人
+ * 人.
  *
  * Class Person
- *
- * @package App\Structural\Decorator\Persons
  */
 class Person
 {
@@ -20,12 +17,11 @@ class Person
     }
 
     /**
-     * 自我展示
-     *
+     * 自我展示.
      */
     public function show()
     {
-        echo $this->name . '穿了';
+        echo $this->name.'穿了';
     }
 
     public function eat()

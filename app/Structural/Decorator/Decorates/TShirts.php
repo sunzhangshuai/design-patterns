@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Structural\Decorator\Decorates;
 
 /**
- * 大T恤
+ * 大T恤.
  *
  * Class TShirts
- *
- * @package App\Structural\Decorator\Decorates
  */
 class TShirts extends Finery
 {
@@ -17,6 +14,6 @@ class TShirts extends Finery
     public function show()
     {
         parent::show();
-        echo self::FINERY . " ";
+        echo self::FINERY.' ';
     }
 }

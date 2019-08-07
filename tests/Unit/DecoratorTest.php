@@ -17,11 +17,11 @@ class DecoratorTest extends TestCase
     public function testSuperMan()
     {
         $person = new SuperMan('张帅');
-        $this->assertEquals('飞',$person->fly());
+        $this->assertEquals('飞', $person->fly());
     }
 
     /**
-     * 装扮测试
+     * 装扮测试.
      *
      * @group decorator
      */
