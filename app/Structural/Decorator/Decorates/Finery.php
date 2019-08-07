@@ -1,17 +1,13 @@
 <?php
 
-
 namespace App\Structural\Decorator\Decorates;
-
 
 use App\Structural\Decorator\Persons\Person;
 
 /**
- * 服饰类
+ * 服饰类.
  *
  * Class Finery
- *
- * @package App\Structural\Decorator\Decorates
  */
 class Finery extends Person
 {
@@ -24,8 +20,7 @@ class Finery extends Person
 
     public function show()
     {
-        if ($this->person != null)
-        {
+        if (null != $this->person) {
             $this->person->show();
         }
     }

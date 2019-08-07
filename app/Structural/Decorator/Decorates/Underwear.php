@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Structural\Decorator\Decorates;
 
 /**
- * 袜子
+ * 袜子.
  *
  * Class Underwear
- *
- * @package App\Structural\Decorator\Decorates
  */
 class Underwear extends Finery
 {
@@ -17,6 +14,6 @@ class Underwear extends Finery
     public function show()
     {
         parent::show();
-        echo self::FINERY . " ";
+        echo self::FINERY.' ';
     }
 }
