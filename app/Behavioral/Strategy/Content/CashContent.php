@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Behavioral\Strategy\Content;
-
 
 use App\Behavioral\Strategy\Strategy\CashSuper;
 

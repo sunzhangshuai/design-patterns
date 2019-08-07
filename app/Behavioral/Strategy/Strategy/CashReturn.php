@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Behavioral\Strategy\Strategy;
-
 
 class CashReturn extends CashSuper
 {
@@ -13,11 +11,11 @@ class CashReturn extends CashSuper
     public function __construct($maxMoney, $return)
     {
         $this->maxMoney = $maxMoney;
-        $this->return   = $return;
+        $this->return = $return;
     }
 
     /**
-     * 收银
+     * 收银.
      *
      * @param $cash
      *
@@ -28,6 +26,7 @@ class CashReturn extends CashSuper
         if ($cash >= $this->maxMoney) {
             return $cash - $this->return;
         }
+
         return $cash;
     }
 }

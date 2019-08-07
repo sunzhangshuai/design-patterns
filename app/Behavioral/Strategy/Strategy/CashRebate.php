@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Behavioral\Strategy\Strategy;
-
 
 class CashRebate extends CashSuper
 {
@@ -14,7 +12,7 @@ class CashRebate extends CashSuper
     }
 
     /**
-     * 收银
+     * 收银.
      *
      * @param $cash
      *
