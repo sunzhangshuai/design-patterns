@@ -1,13 +1,11 @@
 <?php
 
-
 namespace App\Behavioral\Strategy\Strategy;
-
 
 abstract class CashSuper
 {
     /**
-     * 收银
+     * 收银.
      *
      * @param $cash
      *
