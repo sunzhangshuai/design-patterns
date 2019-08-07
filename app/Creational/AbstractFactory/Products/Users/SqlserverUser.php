@@ -1,12 +1,9 @@
 <?php
 
-
 namespace App\Creational\AbstractFactory\Products\Users;
-
 
 class SqlserverUser implements IUser
 {
-
     public function insert()
     {
         return '往SQL Server中的User表添加一条记录\n';

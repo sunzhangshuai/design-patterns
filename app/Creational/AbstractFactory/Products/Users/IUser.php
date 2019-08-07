@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Creational\AbstractFactory\Products\Users;
-
 
 interface IUser
 {
