@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/language-php-8892BF.svg)
 [![Build Status](https://travis-ci.org/sunzhangshuai/composer_release-weather.svg?branch=master)](https://travis-ci.org/sunzhangshuai/composer_release-weather)
-![StyleCI build status](https://github.styleci.io/repos/199437136/shield) 
+![StyleCI build status](https://github.styleci.io/repos/199437136/shield)
 [![codecov](https://codecov.io/gh/sunzhangshuai/design-patterns/branch/master/graph/badge.svg)](https://codecov.io/gh/sunzhangshuai/design-patterns)
 [![codebeat badge](https://codebeat.co/badges/a526fd72-445d-4f3e-94b0-ab79b683e0d0)](https://codebeat.co/projects/github-com-sunzhangshuai-design-patterns-master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bd9c9bfdc680b47ef911/maintainability)](https://codeclimate.com/github/sunzhangshuai/design-patterns/maintainability)
