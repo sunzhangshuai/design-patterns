@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Structural\Decorator\Decorates;
 
 /**
- * 皮鞋类
+ * 皮鞋类.
  *
  * Class Shoes
- *
- * @package App\Structural\Decorator\Decorates
  */
 class Shoes extends Finery
 {
@@ -17,6 +14,6 @@ class Shoes extends Finery
     public function show()
     {
         parent::show();
-        echo self::FINERY . " ";
+        echo self::FINERY.' ';
     }
 }
