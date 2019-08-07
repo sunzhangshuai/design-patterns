@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Creational\AbstractFactory\Factories;
-
 
 use App\Creational\AbstractFactory\Products\Departments\AccessDepartment;
 use App\Creational\AbstractFactory\Products\Users\AccessUser;
