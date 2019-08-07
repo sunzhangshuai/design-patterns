@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Structural\Decorator\Decorates;
 
 /**
- * 垮裤
+ * 垮裤.
  *
  * Class BigTrouser
- *
- * @package App\Structural\Decorator\Decorates
  */
 class BigTrouser extends Finery
 {
@@ -17,6 +14,6 @@ class BigTrouser extends Finery
     public function show()
     {
         parent::show();
-        echo self::FINERY . " ";
+        echo self::FINERY.' ';
     }
 }
