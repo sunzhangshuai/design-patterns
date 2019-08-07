@@ -8,9 +8,8 @@
 
 namespace Tests\Unit;
 
-use App\Creational\AbstractFactory\DigitalProduct;
-use App\Creational\AbstractFactory\ProductFactory;
-use App\Creational\AbstractFactory\ShippableProduct;
+use App\Creational\AbstractFactory\Factories\AccessFactory;
+use App\Creational\AbstractFactory\Factories\SqlserverFactory;
 use Tests\TestCase;
 
 // phpunit --filter=testCanCreateDigitalProduct
@@ -24,44 +23,82 @@ use Tests\TestCase;
 class AbstractFactoryTest extends TestCase
 {
     /**
-     * A basic unit test example.
-     *
      * @group abstractFactory
      */
-    public function testCanCreateDigitalProduct()
+    public function testSqlserverInsertUser()
     {
-        $factory = new ProductFactory();
-        $product = $factory->createDigitalProduct(150);
-        $this->assertInstanceOf(DigitalProduct::class, $product);
+        $factory = new SqlserverFactory();
+        $product = $factory->createUser();
+        $this->assertStringContainsString('往SQL Server中的User表添加一条记录', $product->insert());
     }
 
     /**
      * @group abstractFactory
      */
-    public function testCanCreateShippableProduct()
+    public function testSqlserverGetUser()
     {
-        $factory = new ProductFactory();
-        $product = $factory->createShippableProduct(150);
-        $this->assertInstanceOf(ShippableProduct::class, $product);
+        $factory = new SqlserverFactory();
+        $product = $factory->createUser();
+        $this->assertStringContainsString('根据id得到SQL Server中User表一条记录', $product->getUser());
     }
 
     /**
      * @group abstractFactory
      */
-    public function testCanCalculatePriceForDigitalProduct()
+    public function testAccessInsertUser()
     {
-        $factory = new ProductFactory();
-        $product = $factory->createDigitalProduct(150);
-        $this->assertEquals(150, $product->calculatePrice());
+        $factory = new AccessFactory();
+        $product = $factory->createUser();
+        $this->assertStringContainsString('往Access Server中的User表添加一条记录', $product->insert());
     }
 
     /**
      * @group abstractFactory
      */
-    public function testCanCalculatePriceForShippableProduct()
+    public function testAccessGetUser()
     {
-        $factory = new ProductFactory();
-        $product = $factory->createShippableProduct(150);
-        $this->assertEquals(200, $product->calculatePrice());
+        $factory = new AccessFactory();
+        $product = $factory->createUser();
+        $this->assertStringContainsString('根据id得到Access Server中User表一条记录', $product->getUser());
+    }
+
+    /**
+     * @group abstractFactory
+     */
+    public function testSqlserverInsertDepartment()
+    {
+        $factory = new SqlserverFactory();
+        $product = $factory->createDepartment();
+        $this->assertStringContainsString('往SQL Server中的Department表添加一条记录', $product->insert());
+    }
+
+    /**
+     * @group abstractFactory
+     */
+    public function testSqlserverGetDepartment()
+    {
+        $factory = new SqlserverFactory();
+        $product = $factory->createDepartment();
+        $this->assertStringContainsString('根据id得到SQL Server中Department表一条记录', $product->getDepartment());
+    }
+
+    /**
+     * @group abstractFactory
+     */
+    public function testAccessInsertDepartment()
+    {
+        $factory = new AccessFactory();
+        $product = $factory->createDepartment();
+        $this->assertStringContainsString('往Access Server中的Department表添加一条记录', $product->insert());
+    }
+
+    /**
+     * @group abstractFactory
+     */
+    public function testAccessGetDepartment()
+    {
+        $factory = new AccessFactory();
+        $product = $factory->createDepartment();
+        $this->assertStringContainsString('根据id得到Access Server中Department表一条记录', $product->getDepartment());
     }
 }
