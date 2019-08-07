@@ -17,7 +17,7 @@ class StrategyTest extends TestCase
     public function testNormalCash()
     {
         $cashStrategy = new CashNormal();
-        $content      = new CashContent($cashStrategy);
+        $content = new CashContent($cashStrategy);
         $this->assertEquals(300, $content->getResult(300));
     }
 
@@ -27,7 +27,7 @@ class StrategyTest extends TestCase
     public function testRebateCash()
     {
         $cashStrategy = new CashRebate(0.8);
-        $content      = new CashContent($cashStrategy);
+        $content = new CashContent($cashStrategy);
         $this->assertEquals(240, $content->getResult(300));
     }
 
@@ -37,7 +37,7 @@ class StrategyTest extends TestCase
     public function testReturnCash()
     {
         $cashStrategy = new CashReturn(500, 20);
-        $content      = new CashContent($cashStrategy);
+        $content = new CashContent($cashStrategy);
         $this->assertEquals(300, $content->getResult(300));
         $this->assertEquals(580, $content->getResult(600));
     }
