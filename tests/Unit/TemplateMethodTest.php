@@ -7,11 +7,9 @@ use App\Behavioral\TemplateMethod\CityJourney;
 use Tests\TestCase;
 
 /**
- * 模板方法测试
+ * 模板方法测试.
  *
  * Class TemplateMethodTest
- *
- * @package Tests\Unit
  */
 class TemplateMethodTest extends TestCase
 {
@@ -43,7 +41,7 @@ class TemplateMethodTest extends TestCase
                 'Taking the plane',
                 'Eat, drink, take photos and sleep',
                 'Buy a gift',
-                'Taking the plane'
+                'Taking the plane',
             ],
             $cityJourney->getThingsToDo()
         );
