@@ -67,6 +67,57 @@ return [
             ]) : [],
         ],
 
+        'transaction' => [
+            'driver'    => 'mysql',
+            'write'  => [
+                'host'     => '10.10.5.11',
+                'username' => 'transaction_w',
+                'password' => 'AFMxTetRFHAjJYGhEomH',
+            ],
+            'read'   => [
+                [
+                    'host'     => '10.10.57.106',
+                    'username' => 'transaction_r',
+                    'password' => '5fzAyqDDm5f5ScCZkF1n'
+                ]
+            ],
+            'port'      => '3306',
+            'database'  => 'service_transaction',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+            'engine'    => null,
+        ],
+
+        'clue' => [
+            'driver'    => 'mysql',
+            'host'     => '10.10.172.19',
+            'username' => 'crm_clue_r',
+            'password' => 'Pymrx8uNHsGEMT0qqFYK',
+            'port'      => '3306',
+            'database'  => 'fudao_crm_clue',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+            'engine'    => null,
+        ],
+
+        'account' => [
+            'driver'    => 'mysql',
+            'host'     => '10.10.188.143',
+            'username' => 'crm_r',
+            'password' => 'ODLF8N89kRCzps2aCfUJ',
+            'port'      => '3306',
+            'database'  => 'fudao_account',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+            'engine'    => null,
+        ],
+
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),

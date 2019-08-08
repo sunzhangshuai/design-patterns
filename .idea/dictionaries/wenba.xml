@@ -2,6 +2,7 @@
   <dictionary name="wenba">
     <words>
       <w>creational</w>
+      <w>fudao</w>
       <w>multiton</w>
       <w>sqlserver</w>
     </words>
