@@ -8,7 +8,7 @@ use App\Behavioral\State\Work;
 class StateTest extends TestCase
 {
     /**
-     * 测试状态模式
+     * 测试状态模式.
      *
      * @group state
      *
