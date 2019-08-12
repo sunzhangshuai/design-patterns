@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
-
 
 use App\Behavioral\State\Work;
 
 class EveningState extends State
 {
-
     /**
      * 写代码
      *
@@ -21,6 +18,7 @@ class EveningState extends State
         if ($work->getTaskFinishedState()) {
             //如果完成任务，下班
             $work->setState(new RestState());
+
             return $work->WriteProgram();
         }
 
@@ -29,6 +27,7 @@ class EveningState extends State
         }
         //超过21点，则转入睡眠工作状态
         $work->setState(new SleepingState());
+
         return $work->WriteProgram();
     }
 }

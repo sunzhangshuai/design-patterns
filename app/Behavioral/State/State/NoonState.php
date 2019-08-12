@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
 
 use App\Behavioral\State\Work;
@@ -20,6 +19,7 @@ class NoonState extends State
             return sprintf("当前时间：%s 饿了，午饭；犯困，午休\n", $work->getHour());
         }
         $work->setState(new AfterNoonState());
+
         return $work->WriteProgram();
     }
 }

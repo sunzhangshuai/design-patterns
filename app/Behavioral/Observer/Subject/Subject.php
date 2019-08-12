@@ -1,28 +1,25 @@
 <?php
 
-
 namespace App\Behavioral\Observer\Subject;
 
 use App\Behavioral\Observer\Observer\IObserver;
 
 /**
- * 具体主题
+ * 具体主题.
  *
  * Class Subject
- *
- * @package App\Behavioral\Observer\Subject
  */
 class Subject implements ISubject
 {
     /**
-     * 观察者列表
+     * 观察者列表.
      *
      * @var array
      */
     private $_observers = [];
 
     /**
-     * 加入观察者
+     * 加入观察者.
      *
      * @param IObserver $observer
      */
@@ -34,7 +31,7 @@ class Subject implements ISubject
     }
 
     /**
-     * 去除观察者
+     * 去除观察者.
      *
      * @param IObserver $observer
      */
@@ -46,7 +43,7 @@ class Subject implements ISubject
     }
 
     /**
-     * 向观察者发送通知
+     * 向观察者发送通知.
      */
     public function notify()
     {
@@ -56,22 +53,22 @@ class Subject implements ISubject
     }
 
     /**
-     * 设置数量
+     * 设置数量.
      *
      * @param $count
      */
     public function setCount($count)
     {
-        echo '数据量加' . $count . "\n";
+        echo '数据量加'.$count."\n";
     }
 
     /**
-     * 设置积分
+     * 设置积分.
      *
      * @param $integral
      */
     public function setIntegral($integral)
     {
-        echo '积分量加' . $integral . "\n";
+        echo '积分量加'.$integral."\n";
     }
 }

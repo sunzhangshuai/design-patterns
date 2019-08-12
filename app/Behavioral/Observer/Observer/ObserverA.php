@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Behavioral\Observer\Observer;
 
 use App\Behavioral\Observer\Subject\ISubject;
