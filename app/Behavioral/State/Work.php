@@ -13,12 +13,17 @@ class Work
 
     private $hour;
 
+    /**
+     * Work constructor.
+     */
     public function __construct()
     {
         $this->current = new ForenoonState();
     }
 
     /**
+     * 获取时间
+     *
      * @return mixed
      */
     public function getHour()
@@ -27,14 +32,20 @@ class Work
     }
 
     /**
-     * @param mixed $hour
+     * 设置时间
+     *
+     * @param integer $hour 时间
+     *
+     * @return void
      */
-    public function setHour($hour): void
+    public function setHour($hour)
     {
         $this->hour = $hour;
     }
 
     /**
+     * 获取任务状态
+     *
      * @return mixed
      */
     public function getTaskFinishedState()
@@ -43,7 +54,11 @@ class Work
     }
 
     /**
-     * @param bool $bool
+     * 设置任务状态
+     *
+     * @param bool $bool 任务状态
+     *
+     * @return void
      */
     public function setTaskFinished($bool)
     {
@@ -53,7 +68,9 @@ class Work
     /**
      * 设置状态
      *
-     * @param State $state
+     * @param State $state 状态
+     *
+     * @return void
      */
     public function setState(State $state)
     {
