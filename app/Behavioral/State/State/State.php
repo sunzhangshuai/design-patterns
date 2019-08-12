@@ -1,16 +1,13 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
 
 use App\Behavioral\State\Work;
 
 /**
- * 状态模板方法
+ * 状态模板方法.
  *
  * Class State
- *
- * @package App\Behavioral\State\State
  */
 abstract class State
 {

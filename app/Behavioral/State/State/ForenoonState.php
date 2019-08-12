@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
-
 
 use App\Behavioral\State\Work;
 
@@ -22,6 +20,7 @@ class ForenoonState extends State
         }
 
         $work->setState(new NoonState());
+
         return $work->WriteProgram();
     }
 }
