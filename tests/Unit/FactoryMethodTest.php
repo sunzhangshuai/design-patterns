@@ -8,11 +8,11 @@
 
 namespace Tests\Unit;
 
-use App\Creational\FactoryMethod\FileLogger;
-use App\Creational\FactoryMethod\FileLoggerFactory;
-use App\Creational\FactoryMethod\StdoutLogger;
-use App\Creational\FactoryMethod\StdoutLoggerFactory;
 use Tests\TestCase;
+use App\Creational\FactoryMethod\FileLogger;
+use App\Creational\FactoryMethod\StdoutLogger;
+use App\Creational\FactoryMethod\FileLoggerFactory;
+use App\Creational\FactoryMethod\StdoutLoggerFactory;
 
 class FactoryMethodTest extends TestCase
 {

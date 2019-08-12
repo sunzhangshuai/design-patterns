@@ -8,10 +8,10 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
 use App\Creational\StaticFactory\FormatNumber;
 use App\Creational\StaticFactory\FormatString;
 use App\Creational\StaticFactory\StaticFactory;
-use Tests\TestCase;
 
 /**
  * 静态工厂测试.

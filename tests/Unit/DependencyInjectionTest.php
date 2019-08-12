@@ -8,9 +8,9 @@
 
 namespace Tests\Unit;
 
-use App\Structural\DependencyInjection\DatabaseConfiguration;
-use App\Structural\DependencyInjection\DatabaseConnection;
 use Tests\TestCase;
+use App\Structural\DependencyInjection\DatabaseConnection;
+use App\Structural\DependencyInjection\DatabaseConfiguration;
 
 class DependencyInjectionTest extends TestCase
 {

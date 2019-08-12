@@ -8,8 +8,8 @@
 
 namespace Tests\Unit;
 
-use App\Structural\FluentInterface\Sql;
 use Tests\TestCase;
+use App\Structural\FluentInterface\Sql;
 
 class FluentInterfaceTest extends TestCase
 {

@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
+use App\Behavioral\Observer\Subject\Subject;
 use App\Behavioral\Observer\Observer\ObserverA;
 use App\Behavioral\Observer\Observer\ObserverB;
-use App\Behavioral\Observer\Subject\Subject;
-use Tests\TestCase;
 
 /**
  * 观察者模式测试方法.
