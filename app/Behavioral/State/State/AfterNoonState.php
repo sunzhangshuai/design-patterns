@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
-
 
 use App\Behavioral\State\Work;
 
 class AfterNoonState extends State
 {
-
     /**
      * 写代码
      *
@@ -23,6 +20,7 @@ class AfterNoonState extends State
         }
 
         $work->setState(new EveningState());
+
         return $work->WriteProgram();
     }
 }

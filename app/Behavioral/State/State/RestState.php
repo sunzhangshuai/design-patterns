@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
-
 
 use App\Behavioral\State\Work;
 

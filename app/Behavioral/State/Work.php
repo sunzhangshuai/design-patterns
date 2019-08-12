@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Behavioral\State;
 
 use App\Behavioral\State\State\ForenoonState;
