@@ -5,7 +5,6 @@
  * PHP version 7.3
  *
  * @category NoonState
- * @package  App\Behavioral\State\State
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  * @license  http://design-patterns.test/ 设计模式
  * @link     http://design-patterns.test/
@@ -19,7 +18,6 @@ use App\Behavioral\State\Work;
  * NoonState :中午状态
  *
  * @category NoonState
- * @package  App\Behavioral\State\State
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  * @license  http://design-patterns.test/ 设计模式
  * @link     http://design-patterns.test/
