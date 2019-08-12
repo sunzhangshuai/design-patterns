@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Behavioral\State\State;
-
 
 use App\Behavioral\State\Work;
 
 class SleepingState extends State
 {
-
     /**
      * 写代码
      *
