@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use App\Behavioral\TemplateMethod\BeachJourney;
-use App\Behavioral\TemplateMethod\CityJourney;
 use Tests\TestCase;
+use App\Behavioral\TemplateMethod\CityJourney;
+use App\Behavioral\TemplateMethod\BeachJourney;
 
 /**
  * 模板方法测试.

@@ -2,8 +2,8 @@
 
 namespace App\Behavioral\State;
 
-use App\Behavioral\State\State\ForenoonState;
 use App\Behavioral\State\State\State;
+use App\Behavioral\State\State\ForenoonState;
 
 class Work
 {

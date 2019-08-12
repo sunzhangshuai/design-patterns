@@ -8,10 +8,10 @@
 
 namespace Tests\Unit;
 
-use App\Structural\Facade\BiosInterFace;
+use Tests\TestCase;
 use App\Structural\Facade\Facade;
 use App\Structural\Facade\OsInterface;
-use Tests\TestCase;
+use App\Structural\Facade\BiosInterFace;
 
 /**
  * 门面模式单元测试.

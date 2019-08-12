@@ -45,7 +45,6 @@ abstract class Journey
      */
     protected function buyGift()
     {
-        return null;
     }
 
     /**

@@ -25,7 +25,7 @@ class Subject implements ISubject
      */
     public function attach(IObserver $observer)
     {
-        if (!in_array($observer, $this->_observers)) {
+        if (! in_array($observer, $this->_observers)) {
             $this->_observers[] = $observer;
         }
     }
