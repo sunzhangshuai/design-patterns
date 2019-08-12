@@ -2,12 +2,12 @@
 
 namespace Tests\Unit;
 
-use App\Structural\Decorator\Decorates\BigTrouser;
+use Tests\TestCase;
 use App\Structural\Decorator\Decorates\Shoes;
+use App\Structural\Decorator\Persons\SuperMan;
 use App\Structural\Decorator\Decorates\TShirts;
 use App\Structural\Decorator\Decorates\Underwear;
-use App\Structural\Decorator\Persons\SuperMan;
-use Tests\TestCase;
+use App\Structural\Decorator\Decorates\BigTrouser;
 
 class DecoratorTest extends TestCase
 {

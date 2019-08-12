@@ -8,12 +8,12 @@
 
 namespace Tests\Unit;
 
-use App\Creational\Builder\Builders\CarBuilder;
-use App\Creational\Builder\Builders\TruckBuilder;
+use Tests\TestCase;
 use App\Creational\Builder\Director;
 use App\Creational\Builder\Products\Car;
 use App\Creational\Builder\Products\Truck;
-use Tests\TestCase;
+use App\Creational\Builder\Builders\CarBuilder;
+use App\Creational\Builder\Builders\TruckBuilder;
 
 /**
  * 建造者模式测试.

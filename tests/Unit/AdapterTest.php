@@ -8,10 +8,10 @@
 
 namespace Tests\Unit;
 
-use App\Structural\Adapter\Book;
-use App\Structural\Adapter\EBookAdapter;
-use App\Structural\Adapter\Kindle;
 use Tests\TestCase;
+use App\Structural\Adapter\Book;
+use App\Structural\Adapter\Kindle;
+use App\Structural\Adapter\EBookAdapter;
 
 /**
  * 适配器类单元测试.

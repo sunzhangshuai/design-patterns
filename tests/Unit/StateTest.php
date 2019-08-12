@@ -2,8 +2,8 @@
 
 namespace Tests\Unit;
 
-use App\Behavioral\State\Work;
 use Tests\TestCase;
+use App\Behavioral\State\Work;
 
 class StateTest extends TestCase
 {
