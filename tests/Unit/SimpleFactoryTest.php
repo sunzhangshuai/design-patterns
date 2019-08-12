@@ -8,9 +8,9 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
 use App\Creational\SimpleFactory\Bicycle;
 use App\Creational\SimpleFactory\SimpleFactory;
-use Tests\TestCase;
 
 /**
  * 简单工厂模式测试.
