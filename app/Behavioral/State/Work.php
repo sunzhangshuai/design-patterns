@@ -22,7 +22,7 @@ class Work
     }
 
     /**
-     * 获取时间
+     * 获取时间.
      *
      * @return mixed
      */
@@ -32,9 +32,9 @@ class Work
     }
 
     /**
-     * 设置时间
+     * 设置时间.
      *
-     * @param integer $hour 时间
+     * @param int $hour 时间
      *
      * @return void
      */
