@@ -1,11 +1,5 @@
 <?php
 
-/*
- * 设计模式
- *
- * author 张帅
- */
-
 use Illuminate\Support\Str;
 
 return [
@@ -19,9 +13,7 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
-
     'default' => env('DB_CONNECTION', 'mysql'),
-
     /*
     |--------------------------------------------------------------------------
     | Database Connections
@@ -37,7 +29,6 @@ return [
     | choice installed on your machine before you begin development.
     |
     */
-
     'connections' => [
         'sqlite' => [
             'driver' => 'sqlite',
@@ -46,7 +37,6 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
-
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
@@ -66,58 +56,6 @@ return [
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
         ],
-
-        'transaction' => [
-            'driver' => 'mysql',
-            'write' => [
-                'host' => '10.10.5.11',
-                'username' => 'transaction_w',
-                'password' => 'AFMxTetRFHAjJYGhEomH',
-            ],
-            'read' => [
-                [
-                    'host' => '10.10.57.106',
-                    'username' => 'transaction_r',
-                    'password' => '5fzAyqDDm5f5ScCZkF1n',
-                ],
-            ],
-            'port' => '3306',
-            'database' => 'service_transaction',
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-            'strict' => false,
-            'engine' => null,
-        ],
-
-        'clue' => [
-            'driver' => 'mysql',
-            'host' => '10.10.172.19',
-            'username' => 'crm_clue_r',
-            'password' => 'Pymrx8uNHsGEMT0qqFYK',
-            'port' => '3306',
-            'database' => 'fudao_crm_clue',
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-            'strict' => false,
-            'engine' => null,
-        ],
-
-        'account' => [
-            'driver' => 'mysql',
-            'host' => '10.10.188.143',
-            'username' => 'crm_r',
-            'password' => 'ODLF8N89kRCzps2aCfUJ',
-            'port' => '3306',
-            'database' => 'fudao_account',
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-            'strict' => false,
-            'engine' => null,
-        ],
-
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
@@ -132,7 +70,6 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
-
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
@@ -146,7 +83,6 @@ return [
             'prefix_indexes' => true,
         ],
     ],
-
     /*
     |--------------------------------------------------------------------------
     | Migration Repository Table
@@ -157,9 +93,7 @@ return [
     | the migrations on disk haven't actually been run in the database.
     |
     */
-
     'migrations' => 'migrations',
-
     /*
     |--------------------------------------------------------------------------
     | Redis Databases
@@ -170,22 +104,18 @@ return [
     | such as APC or Memcached. Laravel makes it easy to dig right in.
     |
     */
-
     'redis' => [
         'client' => env('REDIS_CLIENT', 'predis'),
-
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'predis'),
             'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_').'_database_',
         ],
-
         'default' => [
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
             'port' => env('REDIS_PORT', 6379),
             'database' => env('REDIS_DB', 0),
         ],
-
         'cache' => [
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
