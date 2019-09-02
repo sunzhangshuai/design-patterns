@@ -12,6 +12,14 @@ use Tests\TestCase;
 use App\Structural\DependencyInjection\DatabaseConnection;
 use App\Structural\DependencyInjection\DatabaseConfiguration;
 
+/**
+ * DependencyInjectionTest : 依赖注入模式测试
+ *
+ * @category DependencyInjectionTest
+ * @author   zhangshuai <zhangshaui1134@gmail.com>
+ * @license  http://design-patterns.test/ 设计模式
+ * @link     http://design-patterns.test/
+ */
 class DependencyInjectionTest extends TestCase
 {
     /**
