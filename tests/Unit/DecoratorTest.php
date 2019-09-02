@@ -9,6 +9,14 @@ use App\Structural\Decorator\Decorates\TShirts;
 use App\Structural\Decorator\Decorates\Underwear;
 use App\Structural\Decorator\Decorates\BigTrouser;
 
+/**
+ * DecoratorTest : 装饰器模式测试类.
+ *
+ * @category DecoratorTest
+ * @author   zhangshuai <zhangshaui1134@gmail.com>
+ * @license  http://design-patterns.test/ 设计模式
+ * @link     http://design-patterns.test/
+ */
 class DecoratorTest extends TestCase
 {
     /**
