@@ -1,18 +1,17 @@
 <?php
 /**
- * Caretaker.php :
+ * Caretaker.php :.
  *
  * PHP version 7.1
  *
  * @category Caretaker
- * @package  App\Behavioral\Memento
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Memento;
 
 /**
- * Caretaker : 负责人类
+ * Caretaker : 负责人类.
  *
  * @category Caretaker
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -27,7 +26,7 @@ class Caretaker
     public $memento;
 
     /**
-     * 负责人初始化备忘录
+     * 负责人初始化备忘录.
      *
      * Caretaker constructor.
      *

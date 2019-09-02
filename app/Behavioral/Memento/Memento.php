@@ -1,18 +1,17 @@
 <?php
 /**
- * Memento.php :
+ * Memento.php :.
  *
  * PHP version 7.1
  *
  * @category Memento
- * @package  App\Behavioral\Memento
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Memento;
 
 /**
- * Memento : 备忘录
+ * Memento : 备忘录.
  *
  * @category Memento
  * @author   zhangshuai <zhangshaui1134@gmail.com>
