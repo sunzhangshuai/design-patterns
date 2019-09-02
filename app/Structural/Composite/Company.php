@@ -1,11 +1,10 @@
 <?php
 /**
- * Company.php :
+ * Company.php :.
  *
  * PHP version 7.1
  *
  * @category Company
- * @package  App\Structural\Composite
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -27,7 +26,7 @@ abstract class Company
     protected $name;
 
     /**
-     * 初始化公司名称
+     * 初始化公司名称.
      *
      * Company constructor.
      *
@@ -39,25 +38,25 @@ abstract class Company
     }
 
     /**
-     * 增加公司/部门
+     * 增加公司/部门.
      *
      * @param Company $company
      *
      * @return void
      */
-    abstract public function add(Company $company);
+    abstract public function add(self $company);
 
     /**
-     * 移除公司/部门
+     * 移除公司/部门.
      *
      * @param Company $company
      *
      * @return void
      */
-    abstract public function remove(Company $company);
+    abstract public function remove(self $company);
 
     /**
-     * 显示公司/部门
+     * 显示公司/部门.
      *
      * @param $depth
      *
@@ -66,7 +65,7 @@ abstract class Company
     abstract public function display($depth);
 
     /**
-     * 履行职责
+     * 履行职责.
      *
      * @return void
      */

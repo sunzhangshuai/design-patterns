@@ -1,18 +1,17 @@
 <?php
 /**
- * ConcreteCompany.php :
+ * ConcreteCompany.php :.
  *
  * PHP version 7.1
  *
  * @category ConcreteCompany
- * @package  App\Structural\Composite
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Structural\Composite;
 
 /**
- * ConcreteCompany : 混凝土公司
+ * ConcreteCompany : 混凝土公司.
  *
  * @category ConcreteCompany
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -27,7 +26,7 @@ class ConcreteCompany extends Company
     private $children;
 
     /**
-     * 增加公司/部门
+     * 增加公司/部门.
      *
      * @param Company $company
      *
@@ -39,7 +38,7 @@ class ConcreteCompany extends Company
     }
 
     /**
-     * 移除公司/部门
+     * 移除公司/部门.
      *
      * @param Company $company
      *
@@ -52,7 +51,7 @@ class ConcreteCompany extends Company
     }
 
     /**
-     * 显示公司/部门
+     * 显示公司/部门.
      *
      * @param $depth
      *
@@ -60,14 +59,14 @@ class ConcreteCompany extends Company
      */
     public function display($depth)
     {
-        echo str_repeat('-', $depth) . $this->name . "\n";
+        echo str_repeat('-', $depth).$this->name."\n";
         foreach ($this->children as $component) {
             $component->display($depth + 2);
         }
     }
 
     /**
-     * 履行职责
+     * 履行职责.
      *
      * @return void
      */
