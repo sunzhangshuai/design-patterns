@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
+use App\Structural\Composite\HRDepartment;
 use App\Structural\Composite\ConcreteCompany;
 use App\Structural\Composite\FinanceDepartment;
-use App\Structural\Composite\HRDepartment;
-use Tests\TestCase;
 
 /**
  * CompositeTest : 组合模式测试.
@@ -18,7 +18,7 @@ use Tests\TestCase;
 class CompositeTest extends TestCase
 {
     /**
-     * 增加子公司
+     * 增加子公司.
      *
      * @group composite
      *
@@ -29,7 +29,7 @@ class CompositeTest extends TestCase
         $root = new ConcreteCompany('北京总公司');
         $root->add(new HRDepartment('总公司人力资源部'));
         $root->display(1);
-        $str = <<<display
+        $str = <<<'display'
 -北京总公司
 ---总公司人力资源部
 
@@ -49,7 +49,7 @@ display;
         $root->add(new FinanceDepartment('总公司财务部'));
         $root->remove(new HRDepartment('总公司人力资源部'));
         $root->display(1);
-        $str = <<<display
+        $str = <<<'display'
 -北京总公司
 ---总公司财务部
 
@@ -58,7 +58,7 @@ display;
     }
 
     /**
-     * 展示公司
+     * 展示公司.
      *
      * @group composite
      */
@@ -66,7 +66,7 @@ display;
     {
         $root = $this->_getRoot();
         $root->display(1);
-        $str = <<<display
+        $str = <<<'display'
 -北京总公司
 ---总公司人力资源部
 ---总公司财务部
@@ -94,7 +94,7 @@ display;
     {
         $root = $this->_getRoot();
         $root->lineOfDuty();
-        $str = <<<display
+        $str = <<<'display'
 总公司人力资源部员工招聘培训管理
 总公司财务部公司财务收支管理
 华东分公司人力资源部员工招聘培训管理
