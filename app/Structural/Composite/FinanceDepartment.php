@@ -1,18 +1,17 @@
 <?php
 /**
- * FinanceDepartment.php :
+ * FinanceDepartment.php :.
  *
  * PHP version 7.1
  *
  * @category FinanceDepartment
- * @package  App\Structural\Composite
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Structural\Composite;
 
 /**
- * FinanceDepartment : 财务部
+ * FinanceDepartment : 财务部.
  *
  * @category FinanceDepartment
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -21,9 +20,8 @@ namespace App\Structural\Composite;
  */
 class FinanceDepartment extends Company
 {
-
     /**
-     * 增加公司/部门
+     * 增加公司/部门.
      *
      * @param Company $company
      *
@@ -31,11 +29,10 @@ class FinanceDepartment extends Company
      */
     public function add(Company $company)
     {
-
     }
 
     /**
-     * 移除公司/部门
+     * 移除公司/部门.
      *
      * @param Company $company
      *
@@ -43,22 +40,20 @@ class FinanceDepartment extends Company
      */
     public function remove(Company $company)
     {
-
     }
 
-
     /**
-     * 履行职责
+     * 履行职责.
      *
      * @return void
      */
     public function lineOfDuty()
     {
-        echo $this->name . '公司财务收支管理' . "\n";
+        echo $this->name.'公司财务收支管理'."\n";
     }
 
     /**
-     * 显示公司/部门
+     * 显示公司/部门.
      *
      * @param $depth
      *
@@ -66,6 +61,6 @@ class FinanceDepartment extends Company
      */
     public function display($depth)
     {
-        echo str_repeat('-', $depth) . $this->name . "\n";
+        echo str_repeat('-', $depth).$this->name."\n";
     }
 }
