@@ -1,16 +1,14 @@
 <?php
 /**
- * Role.php :
+ * Role.php :.
  *
  * PHP version 7.1
  *
  * @category Role
- * @package  App\Behavioral\Memento
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Memento;
-
 
 class Role
 {
@@ -34,7 +32,7 @@ class Role
      */
     public function __construct($bloodFlow, $magicPoint)
     {
-        $this->bloodFlow  = $bloodFlow;
+        $this->bloodFlow = $bloodFlow;
         $this->magicPoint = $magicPoint;
     }
 
@@ -45,11 +43,11 @@ class Role
      */
     public function display()
     {
-        return '用户当前状态：血量：' . $this->bloodFlow . '，蓝量：' . $this->magicPoint;
+        return '用户当前状态：血量：'.$this->bloodFlow.'，蓝量：'.$this->magicPoint;
     }
 
     /**
-     * 存档
+     * 存档.
      *
      * @return Memento
      */
@@ -59,7 +57,7 @@ class Role
     }
 
     /**
-     * 载入存档
+     * 载入存档.
      *
      * @param Memento $memento
      */
