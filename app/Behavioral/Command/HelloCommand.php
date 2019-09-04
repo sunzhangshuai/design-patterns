@@ -1,18 +1,17 @@
 <?php
 /**
- * HelloCommand.php :
+ * HelloCommand.php :.
  *
  * PHP version 7.1
  *
  * @category HelloCommand
- * @package  App\Behavioral\Command
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Command;
 
 /**
- * HelloCommand : 打招呼命令
+ * HelloCommand : 打招呼命令.
  *
  * @category HelloCommand
  * @author   zhangshuai <zhangshaui1134@gmail.com>
