@@ -1,11 +1,10 @@
 <?php
 /**
- * Receiver.php :
+ * Receiver.php :.
  *
  * PHP version 7.1
  *
  * @category Receiver
- * @package  App\Behavioral\Command
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 

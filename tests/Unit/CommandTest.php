@@ -2,15 +2,15 @@
 
 namespace Tests\Unit;
 
-use App\Behavioral\Command\HelloCommand;
+use Tests\TestCase;
 use App\Behavioral\Command\Invoker;
 use App\Behavioral\Command\Receiver;
-use Tests\TestCase;
+use App\Behavioral\Command\HelloCommand;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 /**
- * CommandTest : 命令模式测试类
+ * CommandTest : 命令模式测试类.
  *
  * @category CommandTest
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -31,7 +31,7 @@ class CommandTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->invoker  = new Invoker();
+        $this->invoker = new Invoker();
         $this->receiver = new Receiver();
     }
 
