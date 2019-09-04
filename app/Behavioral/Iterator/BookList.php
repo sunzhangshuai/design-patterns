@@ -1,11 +1,10 @@
 <?php
 /**
- * BookList.php :
+ * BookList.php :.
  *
  * PHP version 7.1
  *
  * @category BookList
- * @package  App\Behavioral\Iterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -29,7 +28,7 @@ class BookList implements Countable
     private $books = [];
 
     /**
-     * 根据索引获取书
+     * 根据索引获取书.
      *
      * @param int $bookNumberToGet
      *
@@ -40,8 +39,6 @@ class BookList implements Countable
         if (isset($this->books[$bookNumberToGet])) {
             return $this->books[$bookNumberToGet];
         }
-
-        return null;
     }
 
     /**
@@ -70,7 +67,7 @@ class BookList implements Countable
     }
 
     /**
-     * Count elements of an object
+     * Count elements of an object.
      *
      * @link  https://php.net/manual/en/countable.count.php
      * @return int The custom count as an integer.

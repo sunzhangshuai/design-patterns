@@ -1,11 +1,10 @@
 <?php
 /**
- * BookListIterator.php :
+ * BookListIterator.php :.
  *
  * PHP version 7.1
  *
  * @category BookListIterator
- * @package  App\Behavioral\Iterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -14,7 +13,7 @@ namespace App\Behavioral\Iterator;
 use Iterator;
 
 /**
- * BookListIterator :书列迭代器
+ * BookListIterator :书列迭代器.
  *
  * @category BookListIterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -44,7 +43,7 @@ class BookListIterator implements Iterator
     }
 
     /**
-     * Return the current element
+     * Return the current element.
      *
      * @link  https://php.net/manual/en/iterator.current.php
      * @return mixed Can return any type.
@@ -56,7 +55,7 @@ class BookListIterator implements Iterator
     }
 
     /**
-     * Move forward to next element
+     * Move forward to next element.
      *
      * @link  https://php.net/manual/en/iterator.next.php
      * @return void Any returned value is ignored.
@@ -68,7 +67,7 @@ class BookListIterator implements Iterator
     }
 
     /**
-     * Return the key of the current element
+     * Return the key of the current element.
      *
      * @link  https://php.net/manual/en/iterator.key.php
      * @return mixed scalar on success, or null on failure.
@@ -80,10 +79,10 @@ class BookListIterator implements Iterator
     }
 
     /**
-     * Checks if current position is valid
+     * Checks if current position is valid.
      *
      * @link  https://php.net/manual/en/iterator.valid.php
-     * @return boolean The return value will be casted to boolean and then evaluated.
+     * @return bool The return value will be casted to boolean and then evaluated.
      * Returns true on success or false on failure.
      * @since 5.0.0
      */
@@ -93,7 +92,7 @@ class BookListIterator implements Iterator
     }
 
     /**
-     * Rewind the Iterator to the first element
+     * Rewind the Iterator to the first element.
      *
      * @link  https://php.net/manual/en/iterator.rewind.php
      * @return void Any returned value is ignored.
