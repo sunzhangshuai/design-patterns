@@ -1,16 +1,14 @@
 <?php
 /**
- * BookListReverseIterator.php :
+ * BookListReverseIterator.php :.
  *
  * PHP version 7.1
  *
  * @category BookListReverseIterator
- * @package  App\Behavioral\Iterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Iterator;
-
 
 class BookListReverseIterator extends BookListIterator
 {
@@ -26,7 +24,7 @@ class BookListReverseIterator extends BookListIterator
     }
 
     /**
-     * Return the current book
+     * Return the current book.
      *
      * @link http://php.net/manual/en/iterator.current.php
      * @return Book Can return any type.
@@ -37,7 +35,7 @@ class BookListReverseIterator extends BookListIterator
     }
 
     /**
-     * (PHP 5 >= 5.0.0)
+     * (PHP 5 >= 5.0.0).
      *
      * Move forward to next element
      *
@@ -50,7 +48,7 @@ class BookListReverseIterator extends BookListIterator
     }
 
     /**
-     * (PHP 5 >= 5.0.0)
+     * (PHP 5 >= 5.0.0).
      *
      * Return the key of the current element
      *
@@ -63,12 +61,12 @@ class BookListReverseIterator extends BookListIterator
     }
 
     /**
-     * (PHP 5 >= 5.0.0)
+     * (PHP 5 >= 5.0.0).
      *
      * Checks if current position is valid
      *
      * @link http://php.net/manual/en/iterator.valid.php
-     * @return boolean The return value will be casted to boolean and then evaluated.
+     * @return bool The return value will be casted to boolean and then evaluated.
      *       Returns true on success or false on failure.
      */
     public function valid()
@@ -77,7 +75,7 @@ class BookListReverseIterator extends BookListIterator
     }
 
     /**
-     * (PHP 5 >= 5.0.0)
+     * (PHP 5 >= 5.0.0).
      *
      * Rewind the Iterator to the first element
      *

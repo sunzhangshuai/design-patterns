@@ -1,11 +1,10 @@
 <?php
 /**
- * Book.php :
+ * Book.php :.
  *
  * PHP version 7.1
  *
  * @category Book
- * @package  App\Behavioral\Iterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -40,7 +39,7 @@ class Book
     public function __construct($author, $title)
     {
         $this->author = $author;
-        $this->title  = $title;
+        $this->title = $title;
     }
 
     /**
@@ -64,6 +63,6 @@ class Book
      */
     public function getAuthorAndTitle()
     {
-        return $this->getTitle() . ' by ' . $this->getAuthor();
+        return $this->getTitle().' by '.$this->getAuthor();
     }
 }
