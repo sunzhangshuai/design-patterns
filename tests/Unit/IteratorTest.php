@@ -2,16 +2,16 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
 use App\Behavioral\Iterator\Book;
 use App\Behavioral\Iterator\BookList;
-use App\Behavioral\Iterator\BookListIterator;
-use App\Behavioral\Iterator\BookListReverseIterator;
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
+use App\Behavioral\Iterator\BookListIterator;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use App\Behavioral\Iterator\BookListReverseIterator;
 
 /**
- * IteratorTest :
+ * IteratorTest :.
  *
  * @category IteratorTest
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -43,8 +43,8 @@ class IteratorTest extends TestCase
                 [
                     '孙孙是傻逼 by 张帅',
                     '孙孙是个大傻逼 by 还是张帅',
-                    '对，我是傻逼 by 孙孙'
-                ]
+                    '对，我是傻逼 by 孙孙',
+                ],
             ],
         ];
     }
