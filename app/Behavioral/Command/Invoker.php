@@ -1,11 +1,10 @@
 <?php
 /**
- * Invoker.php :
+ * Invoker.php :.
  *
  * PHP version 7.1
  *
  * @category Invoker
- * @package  App\Behavioral\Command
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -27,7 +26,7 @@ class Invoker
     private $command;
 
     /**
-     * 设置命令
+     * 设置命令.
      *
      * @param CommandInterface $command
      */
@@ -37,7 +36,7 @@ class Invoker
     }
 
     /**
-     * 执行命令
+     * 执行命令.
      */
     public function run()
     {
