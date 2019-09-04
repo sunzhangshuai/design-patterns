@@ -13,6 +13,11 @@ class Finery extends Person
 {
     protected $person;
 
+    /**
+     * 装饰.
+     *
+     * @param Person $component
+     */
     public function decorate(Person $component)
     {
         $this->person = $component;
