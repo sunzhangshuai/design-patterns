@@ -1,11 +1,10 @@
 <?php
 /**
- * SlowStorage.php :
+ * SlowStorage.php :.
  *
  * PHP version 7.1
  *
  * @category SlowStorage
- * @package  App\Behavioral\ChainOfResponsibilities\Responsible
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -53,6 +52,7 @@ class SlowStorage extends Handle
         if ('get' === $request->verb) {
             if (array_key_exists($request->key, $this->data)) {
                 $request->response = $this->data[$request->key];
+
                 return true;
             }
         }

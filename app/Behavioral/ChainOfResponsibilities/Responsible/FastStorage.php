@@ -1,11 +1,10 @@
 <?php
 /**
- * FastStorage.php :
+ * FastStorage.php :.
  *
  * PHP version 7.1
  *
  * @category FastStorage
- * @package  App\Behavioral\ChainOfResponsibilities\Responsible
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -15,7 +14,7 @@ use App\Behavioral\ChainOfResponsibilities\Handle;
 use App\Behavioral\ChainOfResponsibilities\Request;
 
 /**
- * FastStorage :
+ * FastStorage :.
  *
  * @category FastStorage
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -37,7 +36,6 @@ class FastStorage extends Handle
         $this->data = $data;
     }
 
-
     /**
      * 每个处理器具体实现类要实现这个方法对请求进行处理。
      *
@@ -50,6 +48,7 @@ class FastStorage extends Handle
         if ('get' === $request->verb) {
             if (array_key_exists($request->key, $this->data)) {
                 $request->response = $this->data[$request->key];
+
                 return true;
             }
         }

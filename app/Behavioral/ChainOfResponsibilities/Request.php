@@ -1,11 +1,10 @@
 <?php
 /**
- * Request.php :
+ * Request.php :.
  *
  * PHP version 7.1
  *
  * @category Request
- * @package  App\Behavioral\ChainOfResponsibilities
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
