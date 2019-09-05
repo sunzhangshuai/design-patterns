@@ -1,11 +1,10 @@
 <?php
 /**
- * Colleague.php :
+ * Colleague.php :.
  *
  * PHP version 7.1
  *
  * @category Colleague
- * @package  App\Behavioral\Mediator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -22,7 +21,7 @@ namespace App\Behavioral\Mediator;
 abstract class Colleague
 {
     /**
-     * this ensures no change in subclasses
+     * this ensures no change in subclasses.
      *
      * @var MediatorInterface
      */

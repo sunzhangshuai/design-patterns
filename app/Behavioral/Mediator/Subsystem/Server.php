@@ -1,16 +1,14 @@
 <?php
 /**
- * Server.php :
+ * Server.php :.
  *
  * PHP version 7.1
  *
  * @category Server
- * @package  App\Behavioral\Mediator\Subsystem
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Mediator\Subsystem;
-
 
 use App\Behavioral\Mediator\Colleague;
 
@@ -25,7 +23,7 @@ use App\Behavioral\Mediator\Colleague;
 class Server extends Colleague
 {
     /**
-     * process on server
+     * process on server.
      */
     public function process()
     {

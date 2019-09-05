@@ -1,22 +1,21 @@
 <?php
 /**
- * Mediator.php :
+ * Mediator.php :.
  *
  * PHP version 7.1
  *
  * @category Mediator
- * @package  App\Behavioral\Mediator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Mediator;
 
 use App\Behavioral\Mediator\Subsystem\Client;
-use App\Behavioral\Mediator\Subsystem\Database;
 use App\Behavioral\Mediator\Subsystem\Server;
+use App\Behavioral\Mediator\Subsystem\Database;
 
 /**
- * Mediator : 中介者模式的具体实现类
+ * Mediator : 中介者模式的具体实现类.
  *
  * @category Mediator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -48,12 +47,12 @@ class Mediator implements MediatorInterface
     public function setColleague(Database $db, Client $cl, Server $srv)
     {
         $this->database = $db;
-        $this->server   = $srv;
-        $this->client   = $cl;
+        $this->server = $srv;
+        $this->client = $cl;
     }
 
     /**
-     * 发送响应
+     * 发送响应.
      *
      * @param string $content
      */
@@ -71,7 +70,7 @@ class Mediator implements MediatorInterface
     }
 
     /**
-     * 查询数据库
+     * 查询数据库.
      */
     public function queryDb()
     {
