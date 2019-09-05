@@ -1,11 +1,10 @@
 <?php
 /**
- * Handle.php :
+ * Handle.php :.
  *
  * PHP version 7.1
  *
  * @category Handle
- * @package  App\Behavioral\ChainOfResponsibilities
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -37,7 +36,7 @@ abstract class Handle
      *
      * @param Handle $handle
      */
-    final public function append(Handle $handle)
+    final public function append(self $handle)
     {
         if (is_null($this->successor)) {
             $this->successor = $handle;
@@ -60,9 +59,9 @@ abstract class Handle
     {
         $request->forDebugOnly = get_called_class();
         $processed = $this->processing($request);
-        if (!$processed) {
+        if (! $processed) {
             // the request has not been processed by this handler => see the next
-            if (!is_null($this->successor)) {
+            if (! is_null($this->successor)) {
                 $processed = $this->successor->handle($request);
             }
         }
