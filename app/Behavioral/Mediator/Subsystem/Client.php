@@ -1,16 +1,14 @@
 <?php
 /**
- * Client.php :
+ * Client.php :.
  *
  * PHP version 7.1
  *
  * @category Client
- * @package  App\Behavioral\Mediator\Subsystem
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Mediator\Subsystem;
-
 
 use App\Behavioral\Mediator\Colleague;
 
@@ -25,7 +23,7 @@ use App\Behavioral\Mediator\Colleague;
 class Client extends Colleague
 {
     /**
-     * request
+     * request.
      */
     public function request()
     {
@@ -33,7 +31,7 @@ class Client extends Colleague
     }
 
     /**
-     * output content
+     * output content.
      *
      * @param string $content
      */
