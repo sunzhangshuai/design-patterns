@@ -1,16 +1,14 @@
 <?php
 /**
- * Database.php :
+ * Database.php :.
  *
  * PHP version 7.1
  *
  * @category Database
- * @package  App\Behavioral\Mediator\Subsystem
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Mediator\Subsystem;
-
 
 use App\Behavioral\Mediator\Colleague;
 
@@ -29,6 +27,6 @@ class Database extends Colleague
      */
     public function getData()
     {
-        return "World";
+        return 'World';
     }
 }
