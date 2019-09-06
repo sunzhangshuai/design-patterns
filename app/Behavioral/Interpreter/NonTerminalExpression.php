@@ -12,7 +12,7 @@
 namespace App\Behavioral\Interpreter;
 
 /**
- * NonTerminalExpression : 非终端解释器类.
+ * NonTerminalExpression : 非终端解释器类
  *
  * @category NonTerminalExpression
  * @author   zhangshuai <zhangshaui1134@gmail.com>
