@@ -2,13 +2,13 @@
 
 namespace Tests\Unit;
 
-use App\Behavioral\Visitor\Group;
-use App\Behavioral\Visitor\Role;
-use App\Behavioral\Visitor\RolePrintVisitor;
-use App\Behavioral\Visitor\User;
-use InvalidArgumentException;
-use ReflectionException;
 use Tests\TestCase;
+use ReflectionException;
+use InvalidArgumentException;
+use App\Behavioral\Visitor\Role;
+use App\Behavioral\Visitor\User;
+use App\Behavioral\Visitor\Group;
+use App\Behavioral\Visitor\RolePrintVisitor;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -23,7 +23,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class VisitorTest extends TestCase
 {
     /**
-     * 访问者
+     * 访问者.
      * @var RolePrintVisitor
      */
     protected $visitor;
@@ -37,13 +37,13 @@ class VisitorTest extends TestCase
     {
         return [
             [
-                new User("Dominik"),
-                'Role: User Dominik'
+                new User('Dominik'),
+                'Role: User Dominik',
             ],
             [
-                new Group("Administrators"),
-                'Role: Group: Administrators'
-            ]
+                new Group('Administrators'),
+                'Role: Group: Administrators',
+            ],
         ];
     }
 

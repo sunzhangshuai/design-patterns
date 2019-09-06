@@ -1,18 +1,17 @@
 <?php
 /**
- * Group.php :
+ * Group.php :.
  *
  * PHP version 7.1
  *
  * @category Group
- * @package  App\Behavioral\Visitor
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Visitor;
 
 /**
- * Group :
+ * Group :.
  *
  * @category Group
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -31,7 +30,7 @@ class Group extends Role
      */
     public function __construct($name)
     {
-        $this->name = (string)$name;
+        $this->name = (string) $name;
     }
 
     /**
@@ -39,6 +38,6 @@ class Group extends Role
      */
     public function getName()
     {
-        return 'Group: ' . $this->name;
+        return 'Group: '.$this->name;
     }
 }

@@ -1,18 +1,17 @@
 <?php
 /**
- * User.php :
+ * User.php :.
  *
  * PHP version 7.1
  *
  * @category User
- * @package  App\Behavioral\Visitor
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Visitor;
 
 /**
- * User :
+ * User :.
  *
  * @category User
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -31,7 +30,7 @@ class User extends Role
      */
     public function __construct($name)
     {
-        $this->name = (string)$name;
+        $this->name = (string) $name;
     }
 
     /**
@@ -39,6 +38,6 @@ class User extends Role
      */
     public function getName()
     {
-        return 'User ' . $this->name;
+        return 'User '.$this->name;
     }
 }
