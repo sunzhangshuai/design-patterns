@@ -11,7 +11,7 @@
 namespace App\Behavioral\Interpreter;
 
 /**
- * 抽象表达式
+ * 抽象表达式.
  *
  * Interface AbstractExpression
  */
