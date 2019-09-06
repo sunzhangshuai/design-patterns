@@ -1,11 +1,10 @@
 <?php
 /**
- * User.php :
+ * User.php :.
  *
  * PHP version 7.1
  *
  * @category User
- * @package  App\Structural\Flyweight
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -31,7 +30,7 @@ class User
      *
      * @param $name
      */
-    function __construct($name)
+    public function __construct($name)
     {
         $this->name = $name;
     }
