@@ -7,4 +7,5 @@
 - [DependencyInjection 依赖注入模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/DependencyInjection)
 - [Facade 门面模式（外观模式）](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Facade)
 - [FluentInterface 流接口模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/FluentInterface)
+- [Flyweight 享元模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Flyweight)
 - [Proxy 代理模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Proxy)
