@@ -1,11 +1,10 @@
 <?php
 /**
- * NonTerminalExpression.php :
+ * NonTerminalExpression.php :.
  *
  * PHP version 7.1
  *
  * @category NonTerminalExpression
- * @package  App\Behavioral\Interpreter
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -22,7 +21,7 @@ namespace App\Behavioral\Interpreter;
 class NonTerminalExpression implements AbstractExpression
 {
     /**
-     * 解释
+     * 解释.
      *
      * @param Context $context
      *
