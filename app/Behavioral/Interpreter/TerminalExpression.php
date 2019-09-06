@@ -1,18 +1,17 @@
 <?php
 /**
- * TerminalExpression.php :
+ * TerminalExpression.php :.
  *
  * PHP version 7.1
  *
  * @category TerminalExpression
- * @package  App\Behavioral\Interpreter
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Interpreter;
 
 /**
- * TerminalExpression : 终端解释器类
+ * TerminalExpression : 终端解释器类.
  *
  * @category TerminalExpression
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -21,9 +20,8 @@ namespace App\Behavioral\Interpreter;
  */
 class TerminalExpression implements AbstractExpression
 {
-
     /**
-     * 解释
+     * 解释.
      *
      * @param Context $context
      *
