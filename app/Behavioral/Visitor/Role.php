@@ -1,11 +1,10 @@
 <?php
 /**
- * Role.php :
+ * Role.php :.
  *
  * PHP version 7.1
  *
  * @category Role
- * @package  App\Behavioral\Visitor
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -35,12 +34,12 @@ abstract class Role
     {
         $klass = get_called_class();
         preg_match('#([^\\\\]+)$#', $klass, $extract);
-        $visitingMethod = 'visit' . $extract[1];
+        $visitingMethod = 'visit'.$extract[1];
 
-        if (!method_exists(__NAMESPACE__ . '\RoleVisitorInterface', $visitingMethod)) {
+        if (! method_exists(__NAMESPACE__.'\RoleVisitorInterface', $visitingMethod)) {
             throw new InvalidArgumentException("The visitor you provide cannot visit a $klass instance");
         }
 
-        return call_user_func(array($visitor, $visitingMethod), $this);
+        return call_user_func([$visitor, $visitingMethod], $this);
     }
 }

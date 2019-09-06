@@ -1,22 +1,19 @@
 <?php
 /**
- * RoleVisitorInterface.php :
+ * RoleVisitorInterface.php :.
  *
  * PHP version 7.1
  *
  * @category RoleVisitorInterface
- * @package  App\Behavioral\Visitor
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Visitor;
 
 /**
- * 访问者接口
+ * 访问者接口.
  *
  * Interface RoleVisitorInterface
- *
- * @package App\Behavioral\Visitor
  */
 interface RoleVisitorInterface
 {
