@@ -1,11 +1,10 @@
 <?php
 /**
- * ConcreteWebSite.php :
+ * ConcreteWebSite.php :.
  *
  * PHP version 7.1
  *
  * @category ConcreteWebSite
- * @package  App\Structural\Flyweight
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -31,7 +30,7 @@ class ConcreteWebSite extends Website
      *
      * @param $name
      */
-    function __construct($name)
+    public function __construct($name)
     {
         $this->name = $name;
     }
@@ -43,6 +42,6 @@ class ConcreteWebSite extends Website
      */
     public function use(User $user)
     {
-        return '网站分类: ' . $this->name . '，用户:' . $user->getName();
+        return '网站分类: '.$this->name.'，用户:'.$user->getName();
     }
 }
