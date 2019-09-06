@@ -1,11 +1,10 @@
 <?php
 /**
- * WebsiteFactory.php :
+ * WebsiteFactory.php :.
  *
  * PHP version 7.1
  *
  * @category WebsiteFactory
- * @package  App\Structural\Flyweight
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -33,9 +32,10 @@ class WebsiteFactory
      */
     public function getWebSiteCategory($key)
     {
-        if (!isset($this->flyweights[$key])) {
+        if (! isset($this->flyweights[$key])) {
             $this->flyweights[$key] = new ConcreteWebSite($key);
         }
+
         return $this->flyweights[$key];
     }
 

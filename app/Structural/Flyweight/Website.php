@@ -1,11 +1,10 @@
 <?php
 /**
- * Website.php :
+ * Website.php :.
  *
  * PHP version 7.1
  *
  * @category Website
- * @package  App\Structural\Flyweight
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
