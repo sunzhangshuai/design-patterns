@@ -8,7 +8,7 @@ use App\Behavioral\Interpreter\TerminalExpression;
 use Tests\TestCase;
 
 /**
- * InterpreterTest : 解释器模式.
+ * InterpreterTest : 解释器模式
  *
  * @category InterpreterTest
  * @author   zhangshuai <zhangshaui1134@gmail.com>

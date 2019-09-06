@@ -22,7 +22,7 @@ namespace App\Behavioral\Interpreter;
 class Context
 {
     /**
-     * @var string 输入
+     * @var string 输入.
      */
     public $input;
 

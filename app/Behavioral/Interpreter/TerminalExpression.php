@@ -12,7 +12,7 @@
 namespace App\Behavioral\Interpreter;
 
 /**
- * TerminalExpression : 终端解释器类.
+ * TerminalExpression : 终端解释器类
  *
  * @category TerminalExpression
  * @author   zhangshuai <zhangshaui1134@gmail.com>
