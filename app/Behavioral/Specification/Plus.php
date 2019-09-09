@@ -1,11 +1,10 @@
 <?php
 /**
- * Plus.php :
+ * Plus.php :.
  *
  * PHP version 7.1
  *
  * @category Plus
- * @package  App\Behavioral\Specification
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -35,7 +34,7 @@ class Plus extends AbstractSpecification
     }
 
     /**
-     * 返回两种规格的逻辑与评估
+     * 返回两种规格的逻辑与评估.
      *
      * @param Item $item
      *

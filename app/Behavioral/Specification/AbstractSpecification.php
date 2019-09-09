@@ -1,11 +1,10 @@
 <?php
 /**
- * AbstractSpecification.php :
+ * AbstractSpecification.php :.
  *
  * PHP version 7.1
  *
  * @category AbstractSpecification
- * @package  App\Behavioral\Specification
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -29,7 +28,7 @@ abstract class AbstractSpecification implements SpecificationInterface
     abstract public function isSatisfiedBy(Item $item);
 
     /**
-     * 创建一个逻辑与规格（AND）
+     * 创建一个逻辑与规格（AND）.
      *
      * @param SpecificationInterface $spec
      *
@@ -41,7 +40,7 @@ abstract class AbstractSpecification implements SpecificationInterface
     }
 
     /**
-     * 创建一个逻辑或规格（OR）
+     * 创建一个逻辑或规格（OR）.
      *
      * @param SpecificationInterface $spec
      *
@@ -53,7 +52,7 @@ abstract class AbstractSpecification implements SpecificationInterface
     }
 
     /**
-     * 创建一个逻辑非规格（NOT）
+     * 创建一个逻辑非规格（NOT）.
      *
      * @return SpecificationInterface
      */

@@ -1,11 +1,10 @@
 <?php
 /**
- * PriceSpecification.php :
+ * PriceSpecification.php :.
  *
  * PHP version 7.1
  *
  * @category PriceSpecification
- * @package  App\Behavioral\Specification
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -43,7 +42,7 @@ class PriceSpecification extends AbstractSpecification
     }
 
     /**
-     * 判断给定Item的定价是否在最小值和最大值之间
+     * 判断给定Item的定价是否在最小值和最大值之间.
      *
      * @param Item $item
      *
@@ -51,10 +50,10 @@ class PriceSpecification extends AbstractSpecification
      */
     public function isSatisfiedBy(Item $item)
     {
-        if (!empty($this->maxPrice) && $item->getPrice() > $this->maxPrice) {
+        if (! empty($this->maxPrice) && $item->getPrice() > $this->maxPrice) {
             return false;
         }
-        if (!empty($this->minPrice) && $item->getPrice() < $this->minPrice) {
+        if (! empty($this->minPrice) && $item->getPrice() < $this->minPrice) {
             return false;
         }
 
