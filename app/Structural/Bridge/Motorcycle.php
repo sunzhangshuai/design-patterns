@@ -1,11 +1,10 @@
 <?php
 /**
- * Motorcycle.php :
+ * Motorcycle.php :.
  *
  * PHP version 7.1
  *
  * @category Motorcycle
- * @package  App\Structural\Bridge
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -20,7 +19,7 @@ namespace App\Structural\Bridge;
 class Motorcycle extends Vehicle
 {
     /**
-     * 制造
+     * 制造.
      *
      * @return void
      */
