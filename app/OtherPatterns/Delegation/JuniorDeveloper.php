@@ -1,18 +1,17 @@
 <?php
 /**
- * JuniorDeveloper.php :
+ * JuniorDeveloper.php :.
  *
  * PHP version 7.1
  *
  * @category JuniorDeveloper
- * @package  App\OtherPatterns\Delegation
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\OtherPatterns\Delegation;
 
 /**
- * JuniorDeveloper :
+ * JuniorDeveloper :.
  *
  * @category JuniorDeveloper
  * @author   zhangshuai <zhangshaui1134@gmail.com>
