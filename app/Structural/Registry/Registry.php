@@ -1,11 +1,10 @@
 <?php
 /**
- * Registry.php :
+ * Registry.php :.
  *
  * PHP version 7.1
  *
  * @category Registry
- * @package  App\Structural\Registry
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -24,10 +23,10 @@ abstract class Registry
     /**
      * @var array
      */
-    protected static $storedValues = array();
+    protected static $storedValues = [];
 
     /**
-     * sets a value
+     * sets a value.
      *
      * @param string $key
      * @param mixed  $value
@@ -41,7 +40,7 @@ abstract class Registry
     }
 
     /**
-     * gets a value from the registry
+     * gets a value from the registry.
      *
      * @param string $key
      *

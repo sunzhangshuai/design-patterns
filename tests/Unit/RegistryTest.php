@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use App\Structural\Registry\Registry;
 use StdClass;
 use Tests\TestCase;
+use App\Structural\Registry\Registry;
 
 /**
  * RegistryTest : 注册树模式.
