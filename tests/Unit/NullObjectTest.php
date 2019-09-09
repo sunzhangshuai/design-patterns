@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
+use App\Behavioral\NullObject\Service;
 use App\Behavioral\NullObject\NullLogger;
 use App\Behavioral\NullObject\PrintLogger;
-use App\Behavioral\NullObject\Service;
-use Tests\TestCase;
 
 /**
  * NullObjectTest : 空对象模式测试类.
@@ -16,7 +16,7 @@ use Tests\TestCase;
 class NullObjectTest extends TestCase
 {
     /**
-     * 空对象测试
+     * 空对象测试.
      *
      * @group nullObject
      */
@@ -28,7 +28,7 @@ class NullObjectTest extends TestCase
     }
 
     /**
-     * 非空对象测试
+     * 非空对象测试.
      *
      * @group nullObject
      */
