@@ -1,11 +1,10 @@
 <?php
 /**
- * Service.php :
+ * Service.php :.
  *
  * PHP version 7.1
  *
  * @category Service
- * @package  App\Behavioral\NullObject
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -25,7 +24,7 @@ class Service
     protected $logger;
 
     /**
-     * 我们在构造函数中注入logger
+     * 我们在构造函数中注入logger.
      *
      * @param LoggerInterface $log
      */
@@ -40,7 +39,7 @@ class Service
     public function doSomething()
     {
         // 在空对象模式中不再需要这样判断 "if (!is_null($this->logger))..."
-        $this->logger->log('We are in ' . __METHOD__);
+        $this->logger->log('We are in '.__METHOD__);
         // something to do...
     }
 }

@@ -1,11 +1,10 @@
 <?php
 /**
- * PrintLogger.php :
+ * PrintLogger.php :.
  *
  * PHP version 7.1
  *
  * @category PrintLogger
- * @package  App\Behavioral\NullObject
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
