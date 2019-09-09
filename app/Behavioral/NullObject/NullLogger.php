@@ -1,11 +1,10 @@
 <?php
 /**
- * NullLogger.php :
+ * NullLogger.php :.
  *
  * PHP version 7.1
  *
  * @category NullLogger
- * @package  App\Behavioral\NullObject
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -19,7 +18,6 @@ namespace App\Behavioral\NullObject;
  */
 class NullLogger implements LoggerInterface
 {
-
     /**
      * @param string $str
      *
