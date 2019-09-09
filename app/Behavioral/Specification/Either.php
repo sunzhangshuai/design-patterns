@@ -1,11 +1,10 @@
 <?php
 /**
- * Either.php :
+ * Either.php :.
  *
  * PHP version 7.1
  *
  * @category Either
- * @package  App\Behavioral\Specification
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 

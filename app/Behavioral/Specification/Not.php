@@ -1,11 +1,10 @@
 <?php
 /**
- * Not.php :
+ * Not.php :.
  *
  * PHP version 7.1
  *
  * @category Not
- * @package  App\Behavioral\Specification
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -32,7 +31,7 @@ class Not extends AbstractSpecification
     }
 
     /**
-     * 返回规格的相反结果
+     * 返回规格的相反结果.
      *
      * @param Item $item
      *
@@ -40,6 +39,6 @@ class Not extends AbstractSpecification
      */
     public function isSatisfiedBy(Item $item)
     {
-        return !$this->spec->isSatisfiedBy($item);
+        return ! $this->spec->isSatisfiedBy($item);
     }
 }

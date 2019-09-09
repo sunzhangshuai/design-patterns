@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
 use App\Behavioral\Specification\Item;
 use App\Behavioral\Specification\PriceSpecification;
-use Tests\TestCase;
 
 /**
  * SpecificationTest : 规格模式测试.
@@ -15,7 +15,7 @@ use Tests\TestCase;
 class SpecificationTest extends TestCase
 {
     /**
-     * 简单规格测试
+     * 简单规格测试.
      *
      * @group specification
      */
@@ -40,7 +40,7 @@ class SpecificationTest extends TestCase
     }
 
     /**
-     * 逻辑非规格测试
+     * 逻辑非规格测试.
      *
      * @group specification
      */
@@ -66,7 +66,7 @@ class SpecificationTest extends TestCase
     }
 
     /**
-     * 逻辑与规格测试
+     * 逻辑与规格测试.
      *
      * @group specification
      */
@@ -94,7 +94,7 @@ class SpecificationTest extends TestCase
     }
 
     /**
-     * 逻辑或规格测试
+     * 逻辑或规格测试.
      *
      * @group specification
      */

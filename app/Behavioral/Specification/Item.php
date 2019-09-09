@@ -1,18 +1,17 @@
 <?php
 /**
- * Item.php :
+ * Item.php :.
  *
  * PHP version 7.1
  *
  * @category Item
- * @package  App\Behavioral\Specification
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\Specification;
 
 /**
- * Item :
+ * Item :.
  *
  * @category Item
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -22,7 +21,7 @@ class Item
     protected $price;
 
     /**
-     * An item must have a price
+     * An item must have a price.
      *
      * @param int $price
      */
