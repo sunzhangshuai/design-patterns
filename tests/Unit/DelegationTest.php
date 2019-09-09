@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use App\OtherPatterns\Delegation\JuniorDeveloper;
-use App\OtherPatterns\Delegation\TeamLead;
 use Tests\TestCase;
+use App\OtherPatterns\Delegation\TeamLead;
+use App\OtherPatterns\Delegation\JuniorDeveloper;
 
 /**
  * DelegationTest : 委托模式测试类.
