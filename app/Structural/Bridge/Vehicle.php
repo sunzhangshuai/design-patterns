@@ -1,18 +1,17 @@
 <?php
 /**
- * Vehicle.php :
+ * Vehicle.php :.
  *
  * PHP version 7.1
  *
  * @category Vehicle
- * @package  App\Structural\Bridge
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Structural\Bridge;
 
 /**
- * Vehicle : 车辆类
+ * Vehicle : 车辆类.
  *
  * @category Vehicle
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -35,7 +34,7 @@ abstract class Vehicle
     }
 
     /**
-     * 制造
+     * 制造.
      *
      * @return void
      */

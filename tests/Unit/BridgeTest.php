@@ -2,11 +2,11 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
 use App\Structural\Bridge\Car;
+use App\Structural\Bridge\Produce;
 use App\Structural\Bridge\Assemble;
 use App\Structural\Bridge\Motorcycle;
-use App\Structural\Bridge\Produce;
-use Tests\TestCase;
 
 /**
  * BridgeTest : 桥接模式测试.

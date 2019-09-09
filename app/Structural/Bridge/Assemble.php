@@ -1,11 +1,10 @@
 <?php
 /**
- * Assemble.php :
+ * Assemble.php :.
  *
  * PHP version 7.1
  *
  * @category Assemble
- * @package  App\Structural\Bridge
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -20,7 +19,7 @@ namespace App\Structural\Bridge;
 class Assemble implements Workshop
 {
     /**
-     * 工作
+     * 工作.
      *
      * @return void
      */
