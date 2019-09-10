@@ -1,11 +1,10 @@
 <?php
 /**
- * LogService.php :
+ * LogService.php :.
  *
  * PHP version 7.1
  *
  * @category LogService
- * @package  App\OtherPatterns\ServiceLocator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -19,5 +18,4 @@ namespace App\OtherPatterns\ServiceLocator;
  */
 class LogService implements LogServiceInterface
 {
-
 }
