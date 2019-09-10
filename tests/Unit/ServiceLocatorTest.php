@@ -11,7 +11,7 @@ use App\OtherPatterns\ServiceLocator\ServiceLocator;
 use Tests\TestCase;
 
 /**
- * ServiceLocatorTest : 服务提供者模式测试类.
+ * ServiceLocatorTest : 服务定位器模式测试类.
  *
  * @category ServiceLocatorTest
  * @author   zhangshuai <zhangshaui1134@gmail.com>
