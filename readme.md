@@ -49,5 +49,6 @@
     
 - [其他类型](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Behavioral)
     - [委托模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/Delegation)
-    - [资源库模式]() (<font color="red">未学习</font>)
+    - [资源库模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/Repository)
+    - [服务定位器模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/ServiceLocator)
     - [实体属性值模式]() (<font color="red">未学习</font>)
