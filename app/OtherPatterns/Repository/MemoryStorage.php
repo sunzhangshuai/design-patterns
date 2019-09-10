@@ -1,16 +1,14 @@
 <?php
 /**
- * MemoryStorage.php :
+ * MemoryStorage.php :.
  *
  * PHP version 7.1
  *
  * @category MemoryStorage
- * @package  App\OtherPatterns\Repository
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\OtherPatterns\Repository;
-
 
 class MemoryStorage implements Storage
 {
@@ -28,7 +26,7 @@ class MemoryStorage implements Storage
 
     /**
      * 持久化数据方法
-     * 返回新创建的对象ID
+     * 返回新创建的对象ID.
      *
      * @param array() $data
      *
@@ -37,12 +35,13 @@ class MemoryStorage implements Storage
     public function persist($data)
     {
         $this->data[++$this->lastId] = $data;
+
         return $this->lastId;
     }
 
     /**
      * 通过指定id返回数据
-     * 如果为空返回null
+     * 如果为空返回null.
      *
      * @param int $id
      *
@@ -55,7 +54,7 @@ class MemoryStorage implements Storage
 
     /**
      * 通过指定id删除数据
-     * 如果数据不存在返回false，否则如果删除成功返回true
+     * 如果数据不存在返回false，否则如果删除成功返回true.
      *
      * @param int $id
      *
@@ -63,7 +62,7 @@ class MemoryStorage implements Storage
      */
     public function delete($id)
     {
-        if (!isset($this->data[$id])) {
+        if (! isset($this->data[$id])) {
             return false;
         }
 

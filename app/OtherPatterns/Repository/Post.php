@@ -1,18 +1,17 @@
 <?php
 /**
- * Post.php :
+ * Post.php :.
  *
  * PHP version 7.1
  *
  * @category Post
- * @package  App\OtherPatterns\Repository
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\OtherPatterns\Repository;
 
 /**
- * Post :
+ * Post :.
  *
  * @category Post
  * @author   zhangshuai <zhangshaui1134@gmail.com>
