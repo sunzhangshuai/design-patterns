@@ -1,11 +1,10 @@
 <?php
 /**
- * PostRepository.php :
+ * PostRepository.php :.
  *
  * PHP version 7.1
  *
  * @category PostRepository
- * @package  App\OtherPatterns\Repository
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -46,21 +45,21 @@ class PostRepository
     {
         $arrayData = $this->persistence->retrieve($id);
         if (is_null($arrayData)) {
-            return null;
+            return;
         }
 
-        $post          = new Post();
-        $post->id      = $id;
-        $post->author  = $arrayData['author'];
+        $post = new Post();
+        $post->id = $id;
+        $post->author = $arrayData['author'];
         $post->created = $arrayData['created'];
-        $post->text    = $arrayData['text'];
-        $post->title   = $arrayData['title'];
+        $post->text = $arrayData['text'];
+        $post->title = $arrayData['title'];
 
         return $post;
     }
 
     /**
-     * 保存指定对象并返回
+     * 保存指定对象并返回.
      *
      * @param Post $post
      *
@@ -72,10 +71,11 @@ class PostRepository
             'author'  => $post->author,
             'created' => $post->created,
             'text'    => $post->text,
-            'title'   => $post->title
+            'title'   => $post->title,
         ]);
 
         $post->id = $id;
+
         return $post;
     }
 

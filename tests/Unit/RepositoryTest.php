@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use App\OtherPatterns\Repository\MemoryStorage;
-use App\OtherPatterns\Repository\Post;
-use App\OtherPatterns\Repository\PostRepository;
 use Tests\TestCase;
+use App\OtherPatterns\Repository\Post;
+use App\OtherPatterns\Repository\MemoryStorage;
+use App\OtherPatterns\Repository\PostRepository;
 
 /**
  * RepositoryTest : 资源库模式测试类.
@@ -23,11 +23,11 @@ class RepositoryTest extends TestCase
     public function testExample()
     {
         $repository = new PostRepository(new MemoryStorage());
-        $post          = new Post();
-        $post->author  = 'zhangshuai';
+        $post = new Post();
+        $post->author = 'zhangshuai';
         $post->created = '2019-9-10';
-        $post->text    = '吃饭';
-        $post->title   = '睡觉';
+        $post->text = '吃饭';
+        $post->title = '睡觉';
 
         $post = $repository->save($post);
 
