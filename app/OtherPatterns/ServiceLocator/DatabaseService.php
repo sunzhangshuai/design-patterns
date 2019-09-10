@@ -1,11 +1,10 @@
 <?php
 /**
- * DatabaseService.php :
+ * DatabaseService.php :.
  *
  * PHP version 7.1
  *
  * @category DatabaseService
- * @package  App\OtherPatterns\ServiceLocator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -19,5 +18,4 @@ namespace App\OtherPatterns\ServiceLocator;
  */
 class DatabaseService implements DatabaseServiceInterface
 {
-
 }

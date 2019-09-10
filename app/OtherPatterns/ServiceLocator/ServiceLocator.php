@@ -1,11 +1,10 @@
 <?php
 /**
- * ServiceLocator.php :
+ * ServiceLocator.php :.
  *
  * PHP version 7.1
  *
  * @category ServiceLocator
- * @package  App\OtherPatterns\ServiceLocator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -39,14 +38,14 @@ class ServiceLocator implements ServiceLocatorInterface
      */
     public function __construct()
     {
-        $this->services     = [];
+        $this->services = [];
         $this->instantiated = [];
-        $this->shared       = [];
+        $this->shared = [];
     }
 
     /**
      * 使用特定接口注册服务.
-     * 添加服务时，应注册它的接口或字符串，以便于将来更改服务实现
+     * 添加服务时，应注册它的接口或字符串，以便于将来更改服务实现.
      *
      * @param string        $interface
      * @param string|object $service
@@ -58,11 +57,11 @@ class ServiceLocator implements ServiceLocatorInterface
             $this->instantiated[$interface] = $service;
         }
         $this->services[$interface] = (is_object($service) ? get_class($service) : $service);
-        $this->shared[$interface]   = $share;
+        $this->shared[$interface] = $share;
     }
 
     /**
-     * 判断服务是否被注册
+     * 判断服务是否被注册.
      *
      * @param $interface
      *
@@ -70,7 +69,7 @@ class ServiceLocator implements ServiceLocatorInterface
      */
     public function has($interface): bool
     {
-        return (isset($this->services[$interface]) || isset($this->instantiated[$interface]));
+        return isset($this->services[$interface]) || isset($this->instantiated[$interface]);
     }
 
     /**
@@ -108,6 +107,7 @@ class ServiceLocator implements ServiceLocatorInterface
         if ($this->shared[$interface]) {
             $this->instantiated[$interface] = $object;
         }
+
         return $object;
     }
 }
