@@ -1,11 +1,10 @@
 <?php
 /**
- * ServiceLocatorInterface.php :
+ * ServiceLocatorInterface.php :.
  *
  * PHP version 7.1
  *
  * @category ServiceLocatorInterface
- * @package  App\OtherPatterns\ServiceLocator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -15,13 +14,11 @@ namespace App\OtherPatterns\ServiceLocator;
  * 服务定位器接口定义.
  *
  * Interface ServiceLocatorInterface
- *
- * @package App\OtherPatterns\ServiceLocator
  */
 interface ServiceLocatorInterface
 {
     /**
-     * 判断服务是否被注册
+     * 判断服务是否被注册.
      *
      * @param $interface
      *
