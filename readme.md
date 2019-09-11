@@ -23,13 +23,13 @@
     - [适配器模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Adapter)
     - [桥接模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Bridge)
     - [组合模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Composite)
+    - [数据映射模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/DataMapper)
     - [装饰模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Decorator)
     - [依赖注入模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/DependencyInjection)
     - [门面模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Facade)
     - [流接口模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/FluentInterface)
     - [享元模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Flyweight)
     - [代理模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Proxy)
-    - [数据映射模式]() (<font color="red">未学习</font>)
     - [注册树模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Structural/Registry)
     
 - [行为型](https://github.com/sunzhangshuai/design-patterns/tree/master/app/Behavioral)
@@ -51,4 +51,10 @@
     - [委托模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/Delegation)
     - [资源库模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/Repository)
     - [服务定位器模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/ServiceLocator)
-    - [实体属性值模式]() (<font color="red">未学习</font>)
+    - [实体属性值模式](https://github.com/sunzhangshuai/design-patterns/tree/master/app/OtherPatterns/EAV)    
+
+## 总计 37种设计模式
+- 创建型设计模式   9种
+- 结构型设计模式   11种
+- 行为型设计模式   13种
+- 其他设计模式     4种
