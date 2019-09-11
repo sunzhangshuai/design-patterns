@@ -1,11 +1,10 @@
 <?php
 /**
- * Entity.php :
+ * Entity.php :.
  *
  * PHP version 7.1
  *
  * @category Entity
- * @package  App\OtherPatterns\EAV
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -93,6 +92,7 @@ class Entity implements ValueAccessInterface
         foreach ($this->values as $value) {
             $text[] = (string) $value;
         }
-        return join(', ', $text);
+
+        return implode(', ', $text);
     }
 }
