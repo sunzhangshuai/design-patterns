@@ -1,21 +1,19 @@
 <?php
 /**
- * DBAL.php :
+ * DBAL.php :.
  *
  * PHP version 7.1
  *
  * @category DBAL
- * @package  App\Structural\DataMapper
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Structural\DataMapper;
 
-
 class DBAL
 {
     /**
-     * 增
+     * 增.
      *
      * @param $data
      *
@@ -27,7 +25,7 @@ class DBAL
     }
 
     /**
-     * 改
+     * 改.
      *
      * @param $data
      * @param $query

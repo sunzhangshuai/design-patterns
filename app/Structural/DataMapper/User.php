@@ -1,18 +1,17 @@
 <?php
 /**
- * User.php :
+ * User.php :.
  *
  * PHP version 7.1
  *
  * @category User
- * @package  App\Structural\DataMapper
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Structural\DataMapper;
 
 /**
- * User : 用户类
+ * User : 用户类.
  *
  * @category User
  * @author   zhangshuai <zhangshaui1134@gmail.com>
@@ -41,9 +40,9 @@ class User
      */
     public function __construct($id = null, $username = null, $email = null)
     {
-        $this->userId   = $id;
+        $this->userId = $id;
         $this->username = $username;
-        $this->email    = $email;
+        $this->email = $email;
     }
 
     /**

@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
+use Tests\TestCase;
 use App\Structural\DataMapper\DBAL;
 use App\Structural\DataMapper\User;
 use App\Structural\DataMapper\UserMapper;
-use Tests\TestCase;
 
 class DataMapperTest extends TestCase
 {
@@ -38,8 +38,8 @@ class DataMapperTest extends TestCase
     {
         return [
             [
-                new User(null, 'Odysseus', 'Odysseus@ithaca.gr')
-            ]
+                new User(null, 'Odysseus', 'Odysseus@ithaca.gr'),
+            ],
         ];
     }
 
@@ -50,8 +50,8 @@ class DataMapperTest extends TestCase
     {
         return [
             [
-                new User(1, 'Odysseus', 'Odysseus@ithaca.gr')
-            ]
+                new User(1, 'Odysseus', 'Odysseus@ithaca.gr'),
+            ],
         ];
     }
 }
