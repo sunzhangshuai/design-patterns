@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use App\OtherPatterns\EAV\Attribute;
-use App\OtherPatterns\EAV\Entity;
-use App\OtherPatterns\EAV\Value;
 use Tests\TestCase;
+use App\OtherPatterns\EAV\Value;
+use App\OtherPatterns\EAV\Entity;
+use App\OtherPatterns\EAV\Attribute;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 

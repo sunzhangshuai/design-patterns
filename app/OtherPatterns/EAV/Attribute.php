@@ -1,11 +1,10 @@
 <?php
 /**
- * Attribute.php :
+ * Attribute.php :.
  *
  * PHP version 7.1
  *
  * @category Attribute
- * @package  App\OtherPatterns\EAV
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 

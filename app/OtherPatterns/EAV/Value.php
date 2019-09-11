@@ -1,18 +1,17 @@
 <?php
 /**
- * Value.php :
+ * Value.php :.
  *
  * PHP version 7.1
  *
  * @category Value
- * @package  App\OtherPatterns\EAV
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\OtherPatterns\EAV;
 
 /**
- * Value : value类
+ * Value : value类.
  *
  * @category Value
  * @author   zhangshuai <zhangshaui1134@gmail.com>

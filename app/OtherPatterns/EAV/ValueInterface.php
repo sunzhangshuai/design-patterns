@@ -1,22 +1,19 @@
 <?php
 /**
- * ValueInterface.php :
+ * ValueInterface.php :.
  *
  * PHP version 7.1
  *
  * @category ValueInterface
- * @package  App\OtherPatterns\EAV
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\OtherPatterns\EAV;
 
 /**
- * Value接口
+ * Value接口.
  *
  * Interface ValueInterface
- *
- * @package App\OtherPatterns\EAV
  */
 interface ValueInterface
 {
