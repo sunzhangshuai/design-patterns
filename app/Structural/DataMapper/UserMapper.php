@@ -1,16 +1,14 @@
 <?php
 /**
- * UserMapper.php :
+ * UserMapper.php :.
  *
  * PHP version 7.1
  *
  * @category UserMapper
- * @package  App\Structural\DataMapper
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Structural\DataMapper;
-
 
 use InvalidArgumentException;
 
@@ -30,20 +28,20 @@ class UserMapper
     }
 
     /**
-     * 将用户对象保存到数据库
+     * 将用户对象保存到数据库.
      *
      * @param User $user
      *
-     * @return boolean
+     * @return bool
      */
     public function save(User $user)
     {
         /* $data的键名对应数据库表字段 */
-        $data = array(
+        $data = [
             'userId'   => $user->getUserId(),
             'username' => $user->getUsername(),
             'email'    => $user->getEmail(),
-        );
+        ];
 
         /* 如果没有指定ID则在数据库中创建新纪录，否则更新已有记录 */
         if (null === ($id = $user->getUserId())) {
@@ -59,7 +57,7 @@ class UserMapper
     }
 
     /**
-     * 基于ID在数据库中查找用户并返回用户实例
+     * 基于ID在数据库中查找用户并返回用户实例.
      *
      * @param int $id
      *
@@ -71,7 +69,7 @@ class UserMapper
         $result = $this->adapter->find($id);
 
         if (0 == count($result)) {
-            throw new InvalidArgumentException('User #' . $id . ' not found');
+            throw new InvalidArgumentException('User #'.$id.' not found');
         }
         $row = $result->current();
 
@@ -79,14 +77,14 @@ class UserMapper
     }
 
     /**
-     * 获取数据库所有记录并返回用户实例数组
+     * 获取数据库所有记录并返回用户实例数组.
      *
      * @return array
      */
     public function findAll()
     {
         $resultSet = $this->adapter->findAll();
-        $entries   = array();
+        $entries = [];
 
         foreach ($resultSet as $row) {
             $entries[] = $this->mapObject($row);
