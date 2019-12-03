@@ -11,8 +11,8 @@
 namespace App\Behavioral\Mediator;
 
 use App\Behavioral\Mediator\Subsystem\Client;
-use App\Behavioral\Mediator\Subsystem\Server;
 use App\Behavioral\Mediator\Subsystem\Database;
+use App\Behavioral\Mediator\Subsystem\Server;
 
 /**
  * Mediator : 中介者模式的具体实现类.

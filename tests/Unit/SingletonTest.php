@@ -8,8 +8,8 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Creational\Singleton\Singleton;
+use Tests\TestCase;
 
 /**
  * 单例模式单元测试.

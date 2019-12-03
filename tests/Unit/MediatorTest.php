@@ -2,11 +2,11 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\Mediator\Mediator;
 use App\Behavioral\Mediator\Subsystem\Client;
-use App\Behavioral\Mediator\Subsystem\Server;
 use App\Behavioral\Mediator\Subsystem\Database;
+use App\Behavioral\Mediator\Subsystem\Server;
+use Tests\TestCase;
 
 /**
  * MediatorTest : 中介者模式测试.

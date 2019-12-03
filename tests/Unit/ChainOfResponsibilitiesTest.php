@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\ChainOfResponsibilities\Request;
 use App\Behavioral\ChainOfResponsibilities\Responsible\FastStorage;
 use App\Behavioral\ChainOfResponsibilities\Responsible\SlowStorage;
+use Tests\TestCase;
 
 /**
  * ChainOfResponsibilitiesTest : 责任链模式单元测试.
