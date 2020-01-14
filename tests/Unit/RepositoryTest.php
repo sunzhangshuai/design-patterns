@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
-use App\OtherPatterns\Repository\Post;
 use App\OtherPatterns\Repository\MemoryStorage;
+use App\OtherPatterns\Repository\Post;
 use App\OtherPatterns\Repository\PostRepository;
+use Tests\TestCase;
 
 /**
  * RepositoryTest : 资源库模式测试类.

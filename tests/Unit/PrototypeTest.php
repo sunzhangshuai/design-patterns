@@ -8,9 +8,9 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Creational\Prototype\BarBookPrototype;
 use App\Creational\Prototype\FooBookPrototype;
+use Tests\TestCase;
 
 /**
  * 原型模式测试类.

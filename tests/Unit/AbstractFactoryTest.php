@@ -8,9 +8,9 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Creational\AbstractFactory\Factories\AccessFactory;
 use App\Creational\AbstractFactory\Factories\SqlserverFactory;
+use Tests\TestCase;
 
 // phpunit --filter=testCanCreateDigitalProduct
 // phpunit --group=abstractFactory

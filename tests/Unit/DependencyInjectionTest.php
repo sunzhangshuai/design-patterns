@@ -8,9 +8,9 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
-use App\Structural\DependencyInjection\DatabaseConnection;
 use App\Structural\DependencyInjection\DatabaseConfiguration;
+use App\Structural\DependencyInjection\DatabaseConnection;
+use Tests\TestCase;
 
 /**
  * DependencyInjectionTest : 依赖注入模式测试.
