@@ -2,12 +2,12 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
-use App\OtherPatterns\EAV\Value;
-use App\OtherPatterns\EAV\Entity;
 use App\OtherPatterns\EAV\Attribute;
-use Illuminate\Foundation\Testing\WithFaker;
+use App\OtherPatterns\EAV\Entity;
+use App\OtherPatterns\EAV\Value;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use Tests\TestCase;
 
 /**
  * EAVTest : EAV模式测试类.

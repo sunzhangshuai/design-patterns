@@ -2,15 +2,15 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
-use ReflectionException;
-use InvalidArgumentException;
-use App\Behavioral\Visitor\Role;
-use App\Behavioral\Visitor\User;
 use App\Behavioral\Visitor\Group;
+use App\Behavioral\Visitor\Role;
 use App\Behavioral\Visitor\RolePrintVisitor;
-use Illuminate\Foundation\Testing\WithFaker;
+use App\Behavioral\Visitor\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use InvalidArgumentException;
+use ReflectionException;
+use Tests\TestCase;
 
 /**
  * VisitorTest : 访问者模式测试.

@@ -8,8 +8,8 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Creational\Pool\WorkerPool;
+use Tests\TestCase;
 
 class PoolTest extends TestCase
 {

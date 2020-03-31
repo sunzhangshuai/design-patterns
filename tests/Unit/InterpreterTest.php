@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\Interpreter\Context;
-use App\Behavioral\Interpreter\TerminalExpression;
 use App\Behavioral\Interpreter\NonTerminalExpression;
+use App\Behavioral\Interpreter\TerminalExpression;
+use Tests\TestCase;
 
 /**
  * InterpreterTest : 解释器模式.

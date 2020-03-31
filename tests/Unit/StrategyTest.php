@@ -2,12 +2,12 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\Strategy\Content\CashContent;
+use App\Behavioral\Strategy\Content\CashFactoryContent;
 use App\Behavioral\Strategy\Strategy\CashNormal;
 use App\Behavioral\Strategy\Strategy\CashRebate;
 use App\Behavioral\Strategy\Strategy\CashReturn;
-use App\Behavioral\Strategy\Content\CashFactoryContent;
+use Tests\TestCase;
 
 class StrategyTest extends TestCase
 {
