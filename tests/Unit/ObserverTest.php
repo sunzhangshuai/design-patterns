@@ -2,6 +2,7 @@
 
 namespace Tests\Unit;
 
+use App\Behavioral\Observer\Database\UserService;
 use Tests\TestCase;
 use App\Behavioral\Observer\Subject\Subject;
 use App\Behavioral\Observer\Observer\ObserverA;
@@ -37,5 +38,19 @@ class ObserverTest extends TestCase
         // 消息提示
         $subject->notify(); //输出：数据量加10\n
         $this->expectOutputString("积分量加10\n数据量加10\n数据量加10\n");
+    }
+
+    /**
+     * @group observer
+     */
+    public function testDatabaseUser()
+    {
+        $user = new UserService();
+        $user->insert(1, '张帅');
+        $user->insert(2, '孙晨');
+        $user->insert(2, '孙大傻');
+        $user->update(2, '孙大炮');
+        $user->delete(1);
+        $user->delete(2);
     }
 }

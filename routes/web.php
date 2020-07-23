@@ -11,3 +11,6 @@ Route::get('/', function () {
 });
 
 Route::get('weather/{city}', 'WeatherController@show');
+
+Route::any('transfer', 'TransferClueController@transferClue');
+

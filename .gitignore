@@ -9,5 +9,9 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-/config/database-dev.php
+/config/database-prod.php
 /app/Console/Commands/
+/config/database-dev.php
+/config/database-pre.php
+/config/config/database.php
+/app/Http/Controllers/TransferClueController.php
