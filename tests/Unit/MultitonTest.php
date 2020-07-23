@@ -8,8 +8,8 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Creational\Multiton\Multiton;
+use Tests\TestCase;
 
 class MultitonTest extends TestCase
 {

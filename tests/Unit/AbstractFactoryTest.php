@@ -8,9 +8,9 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Creational\AbstractFactory\Factories\AccessFactory;
 use App\Creational\AbstractFactory\Factories\SqlserverFactory;
+use Tests\TestCase;
 
 // phpunit --filter=testCanCreateDigitalProduct
 // phpunit --group=abstractFactory
@@ -102,7 +102,8 @@ class AbstractFactoryTest extends TestCase
         $this->assertStringContainsString('根据id得到Access Server中Department表一条记录', $product->getDepartment());
     }
 
-    public function testBaa() {
+    public function testBaa()
+    {
         $a = '[{"error_type":3,"log":"\u5b66\u5458UID:510611698\n\u5e74\u7ea7:\u521d\u4e09\n\u79d1\u76ee:\u82f1\u8bed\n\u8bfe\u7a0b\u8d85\u4e0a,\u8bf7\u5c3d\u5feb\u5904\u7406!\u8d85\u4e0a\u6570\u91cf\u4e3a1\u8bfe\u65f6","repair_info":"\u8d85\u4e0a\u6570\u91cf\u4e3a1\u8bfe\u65f6"}]';
         $b = '[{"error_type":3,"log":"\u5b66\u5458UID:150534556\n\u5e74\u7ea7:\u9ad8\u4e8c\n\u79d1\u76ee:\u6570\u5b66\n\u8bfe\u7a0b\u8d85\u4e0a,\u8bf7\u5c3d\u5feb\u5904\u7406!\u8d85\u4e0a\u6570\u91cf\u4e3a1\u8bfe\u65f6","repair_info":"\u8d85\u4e0a\u6570\u91cf\u4e3a1\u8bfe\u65f6"},{"error_type":3,"log":"\u5b66\u5458UID:150534556\n\u5e74\u7ea7:\u9ad8\u4e8c\n\u79d1\u76ee:\u82f1\u8bed\n\u8bfe\u7a0b\u8d85\u4e0a,\u8bf7\u5c3d\u5feb\u5904\u7406!\u8d85\u4e0a\u6570\u91cf\u4e3a4\u8bfe\u65f6","repair_info":"\u8d85\u4e0a\u6570\u91cf\u4e3a4\u8bfe\u65f6"},{"error_type":3,"log":"\u5b66\u5458UID:150534556\n\u5e74\u7ea7:\u9ad8\u4e8c\n\u79d1\u76ee:\u7269\u7406\n\u8bfe\u7a0b\u8d85\u4e0a,\u8bf7\u5c3d\u5feb\u5904\u7406!\u8d85\u4e0a\u6570\u91cf\u4e3a4\u8bfe\u65f6","repair_info":"\u8d85\u4e0a\u6570\u91cf\u4e3a4\u8bfe\u65f6"}]';
         $c = '[{"error_type":3,"log":"\u5b66\u5458UID:560007598\n\u5e74\u7ea7:\u9ad8\u4e00\n\u79d1\u76ee:\u5316\u5b66\n\u8bfe\u7a0b\u8d85\u4e0a,\u8bf7\u5c3d\u5feb\u5904\u7406!\u8d85\u4e0a\u6570\u91cf\u4e3a2048\u8bfe\u65f6","repair_info":"\u8d85\u4e0a\u6570\u91cf\u4e3a2048\u8bfe\u65f6"}]';

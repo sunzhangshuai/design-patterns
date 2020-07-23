@@ -2,13 +2,13 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\Iterator\Book;
 use App\Behavioral\Iterator\BookList;
-use Illuminate\Foundation\Testing\WithFaker;
 use App\Behavioral\Iterator\BookListIterator;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\Behavioral\Iterator\BookListReverseIterator;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use Tests\TestCase;
 
 /**
  * IteratorTest :.

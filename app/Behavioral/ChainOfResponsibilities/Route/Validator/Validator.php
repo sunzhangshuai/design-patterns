@@ -1,11 +1,10 @@
 <?php
 /**
- * Validator.php :
+ * Validator.php :.
  *
  * PHP version 7.1
  *
  * @category Validator
- * @package  App\Behavioral\ChainOfResponsibilities\Route
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
@@ -16,9 +15,7 @@ use App\Behavioral\ChainOfResponsibilities\Route\Response;
 use App\Behavioral\ChainOfResponsibilities\Route\RouteValidator;
 
 /**
- * Interface Validator
- *
- * @package App\Behavioral\ChainOfResponsibilities\Route\Validator
+ * Interface Validator.
  */
 interface Validator
 {

@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Structural\DataMapper\DBAL;
 use App\Structural\DataMapper\User;
 use App\Structural\DataMapper\UserMapper;
+use Tests\TestCase;
 
 class DataMapperTest extends TestCase
 {
