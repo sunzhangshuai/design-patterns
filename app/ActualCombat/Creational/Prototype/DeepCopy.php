@@ -1,16 +1,14 @@
 <?php
 /**
- * DeepCopy.php :
+ * DeepCopy.php :.
  *
  * PHP version 7.1
  *
  * @category DeepCopy
- * @package  App\ActualCombat\Creational\Prototype
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\ActualCombat\Creational\Prototype;
-
 
 use App\ActualCombat\Creational\Prototype\Object\SunChen;
 use App\ActualCombat\Creational\Prototype\Object\ZhangShuai;
@@ -24,17 +22,16 @@ class DeepCopy
     public function __construct(ZhangShuai $zhangShuai, SunChen $sunChen)
     {
         $this->laogong = $zhangShuai;
-        $this->laopo   = $sunChen;
+        $this->laopo = $sunChen;
     }
 
     public function __toString()
     {
-        return $this->laogong . '|' . $this->laopo;
+        return $this->laogong.'|'.$this->laopo;
     }
 
-
     /**
-     * 递归拷贝
+     * 递归拷贝.
      *
      * @param $new
      * @param $old
@@ -51,14 +48,14 @@ class DeepCopy
     }
 
     /**
-     * 通过序列化深拷贝
+     * 通过序列化深拷贝.
      */
     public function copy2()
     {
         $string = serialize($this);
+
         return unserialize($string);
     }
-
 
     public function __clone()
     {

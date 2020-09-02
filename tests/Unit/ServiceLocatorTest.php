@@ -2,13 +2,13 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\Mediator\MediatorInterface;
-use App\OtherPatterns\ServiceLocator\LogService;
-use App\OtherPatterns\ServiceLocator\ServiceLocator;
 use App\OtherPatterns\ServiceLocator\DatabaseService;
-use App\OtherPatterns\ServiceLocator\LogServiceInterface;
 use App\OtherPatterns\ServiceLocator\DatabaseServiceInterface;
+use App\OtherPatterns\ServiceLocator\LogService;
+use App\OtherPatterns\ServiceLocator\LogServiceInterface;
+use App\OtherPatterns\ServiceLocator\ServiceLocator;
+use Tests\TestCase;
 
 /**
  * ServiceLocatorTest : 服务定位器模式测试类.

@@ -1,21 +1,19 @@
 <?php
 /**
- * Response.php :
+ * Response.php :.
  *
  * PHP version 7.1
  *
  * @category Response
- * @package  App\Behavioral\ChainOfResponsibilities\Route
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\ChainOfResponsibilities\Route;
 
-
 class Response
 {
     /**
-     * @var boolean 是否成功
+     * @var bool 是否成功
      */
     public $success = true;
 

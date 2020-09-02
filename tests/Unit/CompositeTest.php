@@ -2,10 +2,10 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
-use App\Structural\Composite\HRDepartment;
 use App\Structural\Composite\ConcreteCompany;
 use App\Structural\Composite\FinanceDepartment;
+use App\Structural\Composite\HRDepartment;
+use Tests\TestCase;
 
 /**
  * CompositeTest : 组合模式测试.
