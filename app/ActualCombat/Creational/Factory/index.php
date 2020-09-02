@@ -35,16 +35,16 @@ includeAllFile(__DIR__ . '/' . 'IocConfig');
 include __DIR__ . '/' . 'Factory.php';
 
 
-use App\ActualCombat\Creational\Factory\Factory;
+use App\ActualCombat\Creational\Factory\ProxyFactory;
 use App\ActualCombat\Creational\Factory\Impl\RateLimiter;
 use App\ActualCombat\Creational\Factory\Interfaces\CounterInterface;
 
-$rate = Factory::getInstance()->create(RateLimiter::class);
+$rate = ProxyFactory::getInstance()->create(RateLimiter::class);
 echo $rate . PHP_EOL;
 echo '========================' . PHP_EOL;
-$rate = Factory::getInstance()->create(RateLimiter::class);
+$rate = ProxyFactory::getInstance()->create(RateLimiter::class);
 echo $rate . PHP_EOL;
 echo '========================' . PHP_EOL;
-$rate = Factory::getInstance()->create(CounterInterface::class);
+$rate = ProxyFactory::getInstance()->create(CounterInterface::class);
 echo $rate . PHP_EOL;
 echo '========================' . PHP_EOL;
