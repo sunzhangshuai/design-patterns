@@ -2,11 +2,11 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
-use App\Behavioral\Memento\Role;
 use App\Behavioral\Memento\Caretaker;
-use Illuminate\Foundation\Testing\WithFaker;
+use App\Behavioral\Memento\Role;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use Tests\TestCase;
 
 /**
  * MementoTest : 备忘录模式测试类.

@@ -8,8 +8,8 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Structural\Proxy\RecordProxy;
+use Tests\TestCase;
 
 /**
  * 代理模式单元测试.

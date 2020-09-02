@@ -2,12 +2,12 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
+use App\Behavioral\Command\HelloCommand;
 use App\Behavioral\Command\Invoker;
 use App\Behavioral\Command\Receiver;
-use App\Behavioral\Command\HelloCommand;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithFaker;
+use Tests\TestCase;
 
 /**
  * CommandTest : 命令模式测试类.

@@ -1,16 +1,14 @@
 <?php
 /**
- * Factory.php :
+ * Factory.php :.
  *
  * PHP version 7.1
  *
  * @category Factory
- * @package  App\ActualCombat\Creational\Factory
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\ActualCombat\Creational\Factory;
-
 
 use App\ActualCombat\Creational\Factory\IocConfig\Config;
 use ReflectionClass;
@@ -34,9 +32,10 @@ class Factory
 
     public static function getInstance()
     {
-        if (!self::$instance) {
+        if (! self::$instance) {
             self::$instance = new self();
         }
+
         return self::$instance;
     }
 
@@ -53,12 +52,12 @@ class Factory
         }
 
         // 真正创建
-        $reflector   = new ReflectionClass($class_name);
+        $reflector = new ReflectionClass($class_name);
         $constructor = $reflector->getConstructor();
-        if (!$constructor) {
+        if (! $constructor) {
             $instance = $reflector->newInstance();
         } else {
-            $params          = $constructor->getParameters();
+            $params = $constructor->getParameters();
             $param_instances = [];
             foreach ($params as $param) {
                 $param_instances[] = $this->create($param->getClass()->name);

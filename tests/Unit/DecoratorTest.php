@@ -2,12 +2,12 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
+use App\Structural\Decorator\Decorates\BigTrouser;
 use App\Structural\Decorator\Decorates\Shoes;
-use App\Structural\Decorator\Persons\SuperMan;
 use App\Structural\Decorator\Decorates\TShirts;
 use App\Structural\Decorator\Decorates\Underwear;
-use App\Structural\Decorator\Decorates\BigTrouser;
+use App\Structural\Decorator\Persons\SuperMan;
+use Tests\TestCase;
 
 /**
  * DecoratorTest : 装饰器模式测试类.

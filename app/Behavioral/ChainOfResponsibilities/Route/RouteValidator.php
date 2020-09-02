@@ -1,16 +1,14 @@
 <?php
 /**
- * RouteValidator.php :
+ * RouteValidator.php :.
  *
  * PHP version 7.1
  *
  * @category RouteValidator
- * @package  App\Behavioral\ChainOfResponsibilities\Route
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\Behavioral\ChainOfResponsibilities\Route;
-
 
 use App\Behavioral\ChainOfResponsibilities\Route\Validator\Validator;
 
@@ -32,7 +30,7 @@ class RouteValidator
     protected $validators;
 
     /**
-     * 添加验证类
+     * 添加验证类.
      *
      * @param Validator $validator
      *
@@ -42,11 +40,12 @@ class RouteValidator
     {
         $this->validators[] = $validator;
         $this->length++;
+
         return $this;
     }
 
     /**
-     * 处理
+     * 处理.
      *
      * @param Request  $request
      * @param Response $response
@@ -55,6 +54,7 @@ class RouteValidator
     {
         if ($this->index === $this->length) {
             $response->data = '老婆，我爱你';
+
             return;
         }
         $validator = $this->validators[$this->index];

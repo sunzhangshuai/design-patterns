@@ -1,16 +1,14 @@
 <?php
 /**
- * ResourcePoolConfig.php :
+ * ResourcePoolConfig.php :.
  *
  * PHP version 7.1
  *
  * @category ResourcePoolConfig
- * @package  App\ActualCombat\Creational\Builder
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\ActualCombat\Creational\Builder;
-
 
 class ResourcePoolConfig
 {
@@ -25,14 +23,14 @@ class ResourcePoolConfig
 
     public function __construct(Builder $builder)
     {
-        $this->name     = $builder->name;
+        $this->name = $builder->name;
         $this->maxTotal = $builder->maxTotal;
-        $this->maxIdle  = $builder->maxIdle;
-        $this->minIdle  = $builder->minIdle;
+        $this->maxIdle = $builder->maxIdle;
+        $this->minIdle = $builder->minIdle;
     }
 
-    public function __toString() {
+    public function __toString()
+    {
         return $this->name;
     }
-
 }
