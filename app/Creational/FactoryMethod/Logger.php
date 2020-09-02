@@ -11,7 +11,7 @@ namespace App\Creational\FactoryMethod;
 /**
  * 日志接口.
  *
- * Interface Logger
+ * Interfaces Logger
  */
 interface Logger
 {

@@ -16,7 +16,7 @@ use App\Behavioral\ChainOfResponsibilities\Route\Response;
 use App\Behavioral\ChainOfResponsibilities\Route\RouteValidator;
 
 /**
- * Interface Validator
+ * Interfaces Validator
  *
  * @package App\Behavioral\ChainOfResponsibilities\Route\Validator
  */

@@ -13,7 +13,7 @@ namespace App\Behavioral\Visitor;
 /**
  * 访问者接口.
  *
- * Interface RoleVisitorInterface
+ * Interfaces RoleVisitorInterface
  */
 interface RoleVisitorInterface
 {

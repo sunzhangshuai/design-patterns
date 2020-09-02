@@ -14,7 +14,7 @@ namespace App\OtherPatterns\Repository;
  * 该接口定义了访问数据存储器的方法
  * 具体的实现可以是多样化的，比如内存、关系型数据库、NoSQL数据库等等.
  *
- * Interface Storage
+ * Interfaces Storage
  */
 interface Storage
 {

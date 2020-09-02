@@ -11,7 +11,7 @@ namespace App\Structural\Adapter;
 /**
  * 电子书接口.
  *
- * Interface EBookInterface
+ * Interfaces EBookInterface
  */
 interface EBookInterface
 {

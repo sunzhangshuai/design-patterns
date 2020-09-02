@@ -13,7 +13,7 @@ namespace App\Behavioral\Command;
 /**
  * 命令接口.
  *
- * Interface CommandInterface
+ * Interfaces CommandInterface
  */
 interface CommandInterface
 {

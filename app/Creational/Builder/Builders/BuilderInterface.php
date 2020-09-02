@@ -11,7 +11,7 @@ namespace App\Creational\Builder\Builders;
 /**
  * 制造接口.
  *
- * Interface BuilderInterface
+ * Interfaces BuilderInterface
  */
 interface BuilderInterface
 {

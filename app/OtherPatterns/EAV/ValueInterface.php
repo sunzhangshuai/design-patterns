@@ -13,7 +13,7 @@ namespace App\OtherPatterns\EAV;
 /**
  * Value接口.
  *
- * Interface ValueInterface
+ * Interfaces ValueInterface
  */
 interface ValueInterface
 {

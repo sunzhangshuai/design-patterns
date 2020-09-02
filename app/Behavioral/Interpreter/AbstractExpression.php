@@ -13,7 +13,7 @@ namespace App\Behavioral\Interpreter;
 /**
  * 抽象表达式.
  *
- * Interface AbstractExpression
+ * Interfaces AbstractExpression
  */
 interface AbstractExpression
 {

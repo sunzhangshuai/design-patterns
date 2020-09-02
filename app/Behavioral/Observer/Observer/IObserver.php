@@ -7,7 +7,7 @@ use App\Behavioral\Observer\Subject\ISubject;
 /**
  * 观察者.
  *
- * Interface IObserver
+ * Interfaces IObserver
  */
 interface IObserver
 {

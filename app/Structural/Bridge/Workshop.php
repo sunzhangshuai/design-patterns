@@ -13,7 +13,7 @@ namespace App\Structural\Bridge;
 /**
  * 车间.
  *
- * Interface Workshop
+ * Interfaces Workshop
  */
 interface Workshop
 {

@@ -13,7 +13,7 @@ namespace App\Behavioral\Specification;
 /**
  * 规格接口.
  *
- * Interface SpecificationInterface
+ * Interfaces SpecificationInterface
  */
 interface SpecificationInterface
 {

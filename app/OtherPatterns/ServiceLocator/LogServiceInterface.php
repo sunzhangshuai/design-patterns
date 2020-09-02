@@ -13,7 +13,7 @@ namespace App\OtherPatterns\ServiceLocator;
 /**
  * 日志服务接口定义.
  *
- * Interface LogServiceInterface
+ * Interfaces LogServiceInterface
  */
 interface LogServiceInterface
 {

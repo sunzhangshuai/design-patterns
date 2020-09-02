@@ -13,7 +13,7 @@ namespace App\OtherPatterns\ServiceLocator;
 /**
  * 服务定位器接口定义.
  *
- * Interface ServiceLocatorInterface
+ * Interfaces ServiceLocatorInterface
  */
 interface ServiceLocatorInterface
 {

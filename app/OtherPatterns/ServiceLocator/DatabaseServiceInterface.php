@@ -13,7 +13,7 @@ namespace App\OtherPatterns\ServiceLocator;
 /**
  * 数据库服务接口定义.
  *
- * Interface DatabaseServiceInterface
+ * Interfaces DatabaseServiceInterface
  */
 interface DatabaseServiceInterface
 {

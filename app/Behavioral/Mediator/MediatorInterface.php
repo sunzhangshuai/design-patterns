@@ -14,7 +14,7 @@ namespace App\Behavioral\Mediator;
  * MediatorInterface是一个中介者契约。
  * 该接口不是强制的，但是使用它更加符合里氏替换原则。
  *
- * Interface MediatorInterface
+ * Interfaces MediatorInterface
  */
 interface MediatorInterface
 {
