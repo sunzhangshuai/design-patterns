@@ -1,16 +1,14 @@
 <?php
 /**
- * ArrayList.php :
+ * ArrayList.php :.
  *
  * PHP version 7.1
  *
  * @category ArrayList
- * @package  App\ActualCombat\Behavioral\Iterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\ActualCombat\Behavioral\Iterator;
-
 
 class ArrayList implements ListInterface
 {
@@ -27,9 +25,9 @@ class ArrayList implements ListInterface
 
     public function add($object)
     {
-        $this->elements[$this->totalSize]      = $object;
+        $this->elements[$this->totalSize] = $object;
         $this->addTimestamps[$this->totalSize] = $this->microtime();
-        $this->realElements[$this->actualSize]= $object;
+        $this->realElements[$this->actualSize] = $object;
         $this->totalSize++;
         $this->actualSize++;
     }
@@ -67,7 +65,8 @@ class ArrayList implements ListInterface
 
     public function microtime()
     {
-        list($msec, $sec) = explode(' ', microtime());
-        return $sec . $msec;
+        [$msec, $sec] = explode(' ', microtime());
+
+        return $sec.$msec;
     }
 }

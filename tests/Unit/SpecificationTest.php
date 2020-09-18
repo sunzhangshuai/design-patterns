@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
 use App\Behavioral\Specification\Item;
 use App\Behavioral\Specification\PriceSpecification;
+use Tests\TestCase;
 
 /**
  * SpecificationTest : 规格模式测试.

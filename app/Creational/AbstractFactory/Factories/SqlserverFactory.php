@@ -2,8 +2,8 @@
 
 namespace App\Creational\AbstractFactory\Factories;
 
-use App\Creational\AbstractFactory\Products\Users\SqlserverUser;
 use App\Creational\AbstractFactory\Products\Departments\SqlserverDepartment;
+use App\Creational\AbstractFactory\Products\Users\SqlserverUser;
 
 class SqlserverFactory implements IFactory
 {

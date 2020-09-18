@@ -1,16 +1,14 @@
 <?php
 /**
- * OrExpression.php :
+ * OrExpression.php :.
  *
  * PHP version 7.1
  *
  * @category OrExpression
- * @package  App\ActualCombat\Behavioral\Interpreter
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\ActualCombat\Behavioral\Interpreter;
-
 
 class OrExpression implements Expression
 {
@@ -32,6 +30,7 @@ class OrExpression implements Expression
                 return true;
             }
         }
+
         return false;
     }
 }

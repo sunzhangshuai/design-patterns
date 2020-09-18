@@ -1,16 +1,14 @@
 <?php
 /**
- * Iterator.php :
+ * Iterator.php :.
  *
  * PHP version 7.1
  *
  * @category Iterator
- * @package  App\ActualCombat\Behavioral\Iterator
  * @author   zhangshuai <zhangshaui1134@gmail.com>
  */
 
 namespace App\ActualCombat\Behavioral\Iterator;
-
 
 class ArrayIterator implements IteratorInterface
 {
@@ -30,7 +28,7 @@ class ArrayIterator implements IteratorInterface
     public function __construct(ArrayList $list)
     {
         $this->createTimestamps = $this->microtime();
-        $this->list      = $list;
+        $this->list = $list;
         $this->leftCount = $list->actualSize;
         $this->totalSize = $list->totalSize;
         $this->jumpNext();
@@ -45,6 +43,7 @@ class ArrayIterator implements IteratorInterface
     {
         $result = $this->list->elements[$this->cursorInAll++];
         $this->jumpNext();
+
         return $result;
     }
 
@@ -63,12 +62,14 @@ class ArrayIterator implements IteratorInterface
     {
         $addTimestamp = $this->list->addTimestamps[$this->cursorInAll];
         $delTimestamp = $this->list->delTimestamps[$this->cursorInAll] ?? '';
-        return $this->createTimestamps > $addTimestamp && (!$delTimestamp || $this->createTimestamps < $delTimestamp);
+
+        return $this->createTimestamps > $addTimestamp && (! $delTimestamp || $this->createTimestamps < $delTimestamp);
     }
 
     public function microtime()
     {
-        list($msec, $sec) = explode(' ', microtime());
-        return $sec . $msec;
+        [$msec, $sec] = explode(' ', microtime());
+
+        return $sec.$msec;
     }
 }
